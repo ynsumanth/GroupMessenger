@@ -1,0 +1,1069 @@
+     "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13067161380011820",
+            "location": 5,
+            "manifest": {
+               "background": {
+                  "persistent": false,
+                  "scripts": [ "manager.js" ]
+               },
+               "externally_connectable": {
+                  "ids": [ "cpfhkdbjfdgdebcjlifoldbijinjfifp" ],
+                  "matches": [ "*://*.google.com/*", "*://*.google.ru/*", "*://*.google.co.uk/*", "*://*.google.fr/*", "*://*.google.de/*", "chrome://newtab/" ]
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDagiQy1VGkO2CHJSjVh7eU5GtuBuOlg2/cTZt7203AcevqpcDd+65S2/yd9KAELYcU6pK8nHVGYBMI6s0u+0RgXfIJ0eFOlTlgfAQWHvg8ovHtJlFJd1COrOkbntD9+s9Jobr3ldmow87aZF1bVHUY4khVP56cZe6adlVw2wK31QIDAQAB",
+               "manifest_version": 2,
+               "minimum_chrome_version": "32",
+               "name": "hotword helper",
+               "permissions": [ "*://*.google.com/*", "*://*.google.ru/*", "*://*.google.co.uk/*", "*://*.google.fr/*", "*://*.google.de/*", "chrome://newtab/", "hotwordPrivate", "tabs" ],
+               "version": "0.0.2.0"
+            },
+            "path": "/opt/google/chrome/resources/hotword_helper",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "eemcgdkfndhakfknompkggombfjjjeno": {
+            "active_permissions": {
+               "api": [ "bookmarks", "bookmarkManagerPrivate", "metricsPrivate", "systemPrivate", "tabs" ],
+               "explicit_host": [ "chrome://favicon/*", "chrome://resources/*" ],
+               "manifest_permissions": [  ]
+            },
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13067157172788816",
+            "location": 5,
+            "manifest": {
+               "chrome_url_overrides": {
+                  "bookmarks": "main.html"
+               },
+               "content_security_policy": "object-src 'none'; script-src chrome://resources 'self'",
+               "description": "Bookmark Manager",
+               "icons": {
+
+               },
+               "incognito": "split",
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQcByy+eN9jzazWF/DPn7NW47sW7lgmpk6eKc0BQM18q8hvEM3zNm2n7HkJv/R6fU+X5mtqkDuKvq5skF6qqUF4oEyaleWDFhd1xFwV7JV+/DU7bZ00w2+6gzqsabkerFpoP33ZRIw7OviJenP0c0uWqDWF8EGSyMhB3txqhOtiQIDAQAB",
+               "manifest_version": 2,
+               "name": "Bookmark Manager",
+               "permissions": [ "bookmarks", "bookmarkManagerPrivate", "metricsPrivate", "systemPrivate", "tabs", "chrome://favicon/", "chrome://resources/" ],
+               "version": "0.1"
+            },
+            "path": "/opt/google/chrome/resources/bookmark_manager",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "ennkphjdgehloodpbhlhldgbnhmacadg": {
+            "active_permissions": {
+               "api": [  ],
+               "explicit_host": [ "chrome://settings-frame/*" ],
+               "manifest_permissions": [  ]
+            },
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [ "app.runtime.onLaunched" ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13067157172795000",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "background": {
+                     "scripts": [ "settings_app.js" ]
+                  }
+               },
+               "description": "Settings",
+               "display_in_launcher": false,
+               "icons": {
+                  "128": "settings_app_icon_128.png",
+                  "16": "settings_app_icon_16.png",
+                  "32": "settings_app_icon_32.png",
+                  "48": "settings_app_icon_48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDoVDPGX6fvKPVVgc+gnkYlGqHuuapgFDyKhsy4z7UzRLO/95zXPv8h8e5EacqbAQJLUbP6DERH5jowyNEYVxq9GJyntJMwP1ejvoz/52hnY3CCGGCmttmKzzpp5zwLuq3iZf8bslwywfflNUYtaCFSDa0TtrBZz0aOPrAAd/AhNwIDAQAB",
+               "manifest_version": 2,
+               "name": "Settings",
+               "permissions": [ "chrome://settings-frame/" ],
+               "version": "0.2"
+            },
+            "path": "/opt/google/chrome/resources/settings_app",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "running": false,
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "felcaaldnbdncclmgdcncolpebgiejap": {
+            "ack_external": true,
+            "active_permissions": {
+               "api": [  ],
+               "manifest_permissions": [  ]
+            },
+            "app_launcher_ordinal": "zm",
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 137,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "api": [  ],
+               "manifest_permissions": [  ]
+            },
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13067482744413905",
+            "lastpingday": "13068115201072811",
+            "location": 1,
+            "manifest": {
+               "api_console_project_id": "1083656409722",
+               "app": {
+                  "launch": {
+                     "local_path": "main.html"
+                  }
+               },
+               "container": "GOOGLE_DRIVE",
+               "current_locale": "en_US",
+               "default_locale": "en_US",
+               "description": "Create and edit spreadsheets",
+               "icons": {
+                  "128": "icon_128.png",
+                  "16": "icon_16.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0AHrkP4MHPDKQI/O9LqZjtM24hKApaT3uVHeOduC06ZXWuwVRvx2wy5JUmMHfefXRG26tErgZSWpbxkm+2xfplKnT+grXF771HDgsNrNXERJHq7tnoYsWRiG3Gbs5BI4Ei+naZ/nyiWblbT4GyuD9N5yXNtoM0AnK+0FYhbO7IwIDAQAB",
+               "manifest_version": 2,
+               "name": "Google Sheets",
+               "offline_enabled": true,
+               "update_url": "https://clients2.google.com/service/update2/crx",
+               "version": "1.1"
+            },
+            "page_ordinal": "n",
+            "path": "felcaaldnbdncclmgdcncolpebgiejap/1.1_0",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "state": 1,
+            "was_installed_by_default": true,
+            "was_installed_by_oem": false
+         },
+         "gfdkimpbcpahaombhbimeihdjnejgicl": {
+            "active_permissions": {
+               "api": [ "feedbackPrivate" ],
+               "explicit_host": [ "chrome://resources/*" ],
+               "manifest_permissions": [  ]
+            },
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [ "feedbackPrivate.onFeedbackRequested" ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13067157172794006",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "background": {
+                     "scripts": [ "js/event_handler.js" ]
+                  },
+                  "content_security_policy": "default-src 'none'; script-src 'self' chrome://resources; style-src 'unsafe-inline' *; img-src *; media-src 'self'"
+               },
+               "description": "User feedback extension",
+               "display_in_launcher": false,
+               "display_in_new_tab_page": false,
+               "icons": {
+                  "32": "images/icon32.png",
+                  "64": "images/icon64.png"
+               },
+               "incognito": "split",
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMZElzFX2J1g1nRQ/8S3rg/1CjFyDltWOxQg+9M8aVgNVxbutEWFQz+oQzIP9BB67mJifULgiv12ToFKsae4NpEUR8sPZjiKDIHumc6pUdixOm8SJ5Rs16SMR6+VYxFUjlVW+5CA3IILptmNBxgpfyqoK0qRpBDIhGk1KDEZ4zqQIDAQAB",
+               "manifest_version": 2,
+               "name": "Feedback",
+               "permissions": [ "feedbackPrivate", "chrome://resources/" ],
+               "version": "1.0"
+            },
+            "path": "/opt/google/chrome/resources/feedback",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "running": false,
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "kmendfapggjehodndflmmgagdbamhnfd": {
+            "active_permissions": {
+               "api": [ "hid", "u2fDevices", "usb", {
+                  "usbDevices": [ {
+                     "interfaceId": -1,
+                     "productId": 529,
+                     "vendorId": 4176
+                  } ]
+               }, "webConnectable" ],
+               "explicit_host": [ "https://www.gstatic.com/*" ],
+               "manifest_permissions": [  ]
+            },
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13067157172797064",
+            "location": 5,
+            "manifest": {
+               "background": {
+                  "persistent": false,
+                  "scripts": [ "util.js", "b64.js", "sha256.js", "countdown.js", "countdowntimer.js", "devicestatuscodes.js", "approvedorigins.js", "errorcodes.js", "gnubbycodetypes.js", "webrequest.js", "gnubbymsgtypes.js", "messagetypes.js", "factoryregistry.js", "closeable.js", "requesthelper.js", "webrequestsender.js", "enroller.js", "requestqueue.js", "signer.js", "origincheck.js", "textfetcher.js", "appid.js", "watchdog.js", "gstaticorigincheck.js", "googleapprovedorigins.js", "gnubbydevice.js", "hidgnubbydevice.js", "usbgnubbydevice.js", "gnubbies.js", "gnubby.js", "gnubby-u2f.js", "gnubbyfactory.js", "singlesigner.js", "multiplesigner.js", "generichelper.js", "inherits.js", "individualattest.js", "devicefactoryregistry.js", "usbhelper.js", "usbenrollhandler.js", "usbsignhandler.js", "usbgnubbyfactory.js", "googlecorpindividualattest.js", "cryptotokenbackground.js" ]
+               },
+               "description": "CryptoToken Component Extension",
+               "externally_connectable": {
+                  "accepts_tls_channel_id": true,
+                  "ids": [ "fjajfjhkeibgmiggdfehjplbhmfkialk" ],
+                  "matches": [ "https://login.corp.google.com/*", "https://accounts.google.com/*", "https://myaccount.google.com/*", "https://security.google.com/*" ]
+               },
+               "incognito": "split",
+               "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq7zRobvA+AVlvNqkHSSVhh1sEWsHSqz4oR/XptkDe/Cz3+gW9ZGumZ20NCHjaac8j1iiesdigp8B1LJsd/2WWv2Dbnto4f8GrQ5MVphKyQ9WJHwejEHN2K4vzrTcwaXqv5BSTXwxlxS/mXCmXskTfryKTLuYrcHEWK8fCHb+0gvr8b/kvsi75A1aMmb6nUnFJvETmCkOCPNX5CHTdy634Ts/x0fLhRuPlahk63rdf7agxQv5viVjQFk+tbgv6aa9kdSd11Js/RZ9yZjrFgHOBWgP4jTBqud4+HUglrzu8qynFipyNRLCZsaxhm+NItTyNgesxLdxZcwOz56KD1Q4IQIDAQAB",
+               "manifest_version": 2,
+               "name": "CryptoTokenExtension",
+               "permissions": [ "hid", "usb", "u2fDevices", "https://www.gstatic.com/", {
+                  "usbDevices": [ {
+                     "productId": 529,
+                     "vendorId": 4176
+                  } ]
+               } ],
+               "version": "0.9.6"
+            },
+            "path": "/opt/google/chrome/resources/cryptotoken",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "mfehgcgbbipciphmccgaenjidiccnmng": {
+            "active_permissions": {
+               "api": [ "cloudPrintPrivate" ],
+               "manifest_permissions": [  ]
+            },
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "install_time": "13067157172790383",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "https://www.google.com/cloudprint"
+                  },
+                  "urls": [ "https://www.google.com/cloudprint/enable_chrome_connector" ]
+               },
+               "description": "Cloud Print",
+               "display_in_launcher": false,
+               "icons": {
+
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqOhnwk4+HXVfGyaNsAQdU/js1Na56diW08oF1MhZiwzSnJsEaeuMN9od9q9N4ZdK3o1xXOSARrYdE+syV7Dl31nf6qz3A6K+D5NHe6sSB9yvYlIiN37jdWdrfxxE0pRYEVYZNTe3bzq3NkcYJlOdt1UPcpJB+isXpAGUKUvt7EQIDAQAB",
+               "name": "Cloud Print",
+               "permissions": [ "cloudPrintPrivate" ],
+               "version": "0.1"
+            },
+            "path": "/opt/google/chrome/resources/cloud_print",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "mfffpogegjflfpflabcdkioaeobkgjik": {
+            "active_permissions": {
+               "api": [ "webRequest", "webRequestBlocking" ],
+               "explicit_host": [ "\u003Call_urls>", "chrome://favicon/*" ],
+               "manifest_permissions": [  ],
+               "scriptable_host": [ "\u003Call_urls>" ]
+            },
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13067157180951128",
+            "location": 5,
+            "manifest": {
+               "background": {
+                  "scripts": [ "background.js", "channel.js" ]
+               },
+               "content_scripts": [ {
+                  "all_frames": true,
+                  "js": [ "channel.js", "saml_injected.js" ],
+                  "matches": [ "\u003Call_urls>" ],
+                  "run_at": "document_start"
+               } ],
+               "content_security_policy": "default-src 'self'; script-src 'self'; frame-src *; style-src 'self' 'unsafe-inline'",
+               "description": "GAIA Component Extension",
+               "key": "MIGdMA0GCSqGSIb3DQEBAQUAA4GLADCBhwKBgQC4L17nAfeTd6Xhtx96WhQ6DSr8KdHeQmfzgCkieKLCgUkWdwB9G1DCuh0EPMDn1MdtSwUAT7xE36APEzi0X/UpKjOVyX8tCC3aQcLoRAE0aJAvCcGwK7qIaQaczHmHKvPC2lrRdzSoMMTC5esvHX+ZqIBMi123FOL0dGW6OPKzIwIBIw==",
+               "manifest_version": 2,
+               "name": "GaiaAuthExtension",
+               "permissions": [ "\u003Call_urls>", "webRequest", "webRequestBlocking" ],
+               "version": "0.0.1",
+               "web_accessible_resources": [ "main.css", "main.html", "main.js", "offline.css", "offline.html", "offline.js", "success.html", "success.js", "util.js" ]
+            },
+            "path": "/opt/google/chrome/resources/gaia_auth",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "mgndgikekgjfcpckkfioiadnlibdjbkf": {
+            "active_permissions": {
+               "api": [  ],
+               "manifest_permissions": [  ]
+            },
+            "app_launcher_ordinal": "n",
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "install_time": "13067157172791882",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "http://THIS-WILL-BE-REPLACED"
+                  }
+               },
+               "description": "A fast, simple, and secure web browser, built for the modern web.",
+               "display_in_launcher": true,
+               "display_in_new_tab_page": false,
+               "icons": {
+                  "128": "product_logo_128.png",
+                  "16": "product_logo_16.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDNuYLEQ1QPMcc5HfWI/9jiEf6FdJWqEtgRmIeI7qtjPLBM5oje+Ny2E2mTAhou5qdJiO2CHWdU1DQXY2F7Zu2gZaKZgHLfK4WimHxUT5Xd9/aro/R9PCzjguM1BLusiWYc9xlj1IsZpyiN1hcjU7SCnBhv1feQlv2WSB5KRiXwhQIDAQAB",
+               "name": "Chrome",
+               "version": "0.1"
+            },
+            "page_ordinal": "n",
+            "path": "/opt/google/chrome/resources/chrome_app",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "nckgahadagoaajjgafhacjanaoiihapd": {
+            "active_permissions": {
+               "api": [ "background", "cookies", "idle", "notifications", "tabs", "webConnectable" ],
+               "explicit_host": [ "*://*.google.com/*", "*://*.orkut.com/*" ],
+               "manifest_permissions": [  ]
+            },
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 9,
+            "events": [  ],
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "api": [ "background", "cookies", "idle", "notifications", "tabs", "webConnectable" ],
+               "explicit_host": [ "*://*.google.com/*", "*://*.orkut.com/*" ],
+               "manifest_permissions": [  ]
+            },
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13067157247325278",
+            "lastpingday": "13068115201072811",
+            "location": 1,
+            "manifest": {
+               "background": {
+                  "scripts": [ "scripts/extension.js" ]
+               },
+               "browser_action": {
+                  "default_icon": {
+                     "19": "images_4/presence/offline_19.png",
+                     "38": "images_4/presence/offline_38.png"
+                  },
+                  "default_title": "Hangouts"
+               },
+               "content_security_policy": "script-src 'self' https://*.google.com https://feedback.googleusercontent.com https://www.gstatic.com https://*.google.com:*/; img-src 'self' data: https://ssl.gstatic.com ; object-src 'self'",
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "description": "Hangouts brings conversations to life with photos, emoji, and even group video calls for free.",
+               "externally_connectable": {
+                  "matches": [ "https://*.google.com/*" ]
+               },
+               "icons": {
+                  "128": "images_4/icon-128x128.png",
+                  "48": "images_4/icon-48x48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDsDApubb73tPfYlNIFxDu3K3/EHgV6/YOJXJkld1OZ20jW/cOht1j0NggnXhQYuu1mXFUufud4I2N7b5ydyg09gcM9Va3Zk17RhNV9smbPHOd4XlzJeXifX/9MgHPu4FzCen3CiSXsOeAELJIXEuT28xICriuUko/rNPwGeIB9VwIDAQAB",
+               "manifest_version": 2,
+               "minimum_chrome_version": "26.0.0.0",
+               "name": "Hangouts",
+               "options_page": "settingsdialog.html",
+               "options_ui": {
+                  "chrome_style": true,
+                  "page": "settingsdialog.html"
+               },
+               "permissions": [ "cookies", "background", "idle", "notifications", "tabs", "*://*.google.com/*", "*://*.orkut.com/*" ],
+               "system_indicator": {
+                  "default_icon": {
+                     "19": "images_4/presence/offline_19.png",
+                     "38": "images_4/presence/offline_38.png"
+                  }
+               },
+               "update_url": "https://clients2.google.com/service/update2/crx",
+               "version": "2015.120.1719.1",
+               "web_accessible_resources": [ "*" ]
+            },
+            "path": "nckgahadagoaajjgafhacjanaoiihapd/2015.120.1719.1_0",
+            "preferences": {
+
+            },
+            "regular_only_preferences": {
+
+            },
+            "state": 1,
+            "was_installed_by_default": false,
+            "was_installed_by_oem": false
+         },
+         "neajdppkdcdipfabeoofebfddakdcjhd": {
+            "active_permissions": {
+               "api": [ "systemPrivate", "ttsEngine" ],
+               "explicit_host": [ "https://www.google.com/*" ],
+               "manifest_permissions": [  ]
+            },
+            "commands": {
+
+            },
+            "content_settings": [  ],
+            "creation_flags": 1,
+            "events": [ "ttsEngine.onPause", "ttsEngine.onResume", "ttsEngine.onSpeak", "ttsEngine.onStop" ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "incognito_content_settings": [  ],
+            "incognito_preferences": {
+
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13067157172795923",
+            "location": 5,
+            "manifest": {
+               "background": {
+                  "persistent": false,
+                  "scripts": [ "tts_extension.js" ]
+               },
+               "description": "Component extension providing speech via the Google network text-to-speech service.",
+               "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8GSbNUMGygqQTNDMFGIjZNcwXsHLzkNkHjWbuY37PbNdSDZ4VqlVjzbWqODSe+MjELdv5Keb51IdytnoGYXBMyqKmWpUrg+RnKvQ5ibWr4MW9pyIceOIdp9GrzC1WZGgTmZismYR3AjaIpufZ7xDdQQv+XrghPWCkdVqLN+qZDA1HU+DURznkMICiDDSH2sU0egm9UbWfS218bZqzKeQDiC3OnTPlaxcbJtKUuupIm5knjze3Wo9Ae9poTDMzKgchg0VlFCv3uqox+wlD8sjXBoyBCCK9HpImdVAF1a7jpdgiUHpPeV/26oYzM9/grltwNR3bzECQgSpyXp0eyoegwIDAQAB",
+               "manifest_version": 2,
+               "name": "Google Network Speech",
+               "permissions": [ "systemPrivate", "ttsEngine", "https://www.google.com/" ],
+               "tts_engine": {
+                  "voices": [ {
+                     "event_types": [ "start", "end", "error" ],
+                     "gender": "female",
+                     "lang": "en-US",
+                     "remote": true,
+                     "voice_name": "Google US English"
+         {
+   "+Z8jocysoxP8JpjeP6gRGBrdG9S46GZECsJVxTbVErc=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1454539942.130433,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1423003942.130433
+   },
+   "0J7rAWV0ouCFYJ9XrkDiKnAO1SshXJmLJE1SS3V8kDM=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1433907096.640034,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1423020696.640034
+   },
+   "4AGT3lHihuMSd5rUj7B4u6At0jlSH3HFePovjPR+oLE=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1433721688.741768,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1422835288.741768
+   },
+   "527PkslNJ5hZXvFN8wnZ9XoURjT5ddTDW+g1qaWZyQk=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1438498399.920134,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1422946399.920134
+   },
+   "5VrLItLXUCPdva78nOzV8FpiOSvlGunpNkHonMcAzZw=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1454272736.150256,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1422736736.150256
+   },
+   "7wyeyRWq8uyGH7qmNWB3Z9gU55nuQZcQnKowmthtuxs=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1454269971.866662,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1422733971.866662
+   },
+   "8/RrMmQlCD2Gsp14wUCE1P8r7B2C5+yE0+g79IPyRsc=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1433873643.38491,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1422980289.38491
+   },
+   "9jFJneXMVHTXLZTJwwlFuScHMcN/99brFSgqRKTizGw=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1454361452.107596,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1422825452.107596
+   },
+   "C6hhjoa/UfPQDtK7OhzQayqV5YYV+Gd1zl/FgGIO4iI=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1454359725.48326,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1422823725.48326
+   },
+   "Dx3CAdqTBiZt531Y7CLrHNoCK6bucoqCLTETql/jtpI=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1425276729.34358,
+      "mode": "default",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1422684729.34358
+   },
+   "IN4MVOmjPvy672m6akZ9Q9TjfMfib7NqhGdJ6K/GKYU=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1438308935.465314,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1422756935.465314
+   },
+   "IPDg3yFoJxpr8tcEm/BzfZXa/ch91CHZrF9WAQ7ZXdM=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1454275929.451334,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1422739929.451334
+   },
+   "SekpjHKfpKr74w4VM/dmdSESAf8rbdYmYbY/ygvlBUo=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1438412177.27347,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1422773777.27347
+   },
+   "TZmujbl93Yt3JI8wZ4X/zjkA0WFNGNW44A+o7h4YyHw=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1438572698.436646,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1423020698.436646
+   },
+   "WwpL0MoBRUIhektbaxpc6XZILY7fjwWltcv0H7hBVEc=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1454273132.798532,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1422737132.798532
+   },
+   "XOQLzqdQxNgMj/4MVc4Rpg9bCVZob5H6tbzVJkKXVZA=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1454556699.368137,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1423020699.368137
+   },
+   "app_list": {
+      "app_launch_count": 0,
+      "last_app_launch_ping": "13068172800000000",
+      "last_launch_ping": "13068172800000000",
+      "launch_count": 0
+   },
+   "browser": {
+      "enabled_labs_experiments": [  ],
+      "last_redirect_origin": ""
+   },
+   "cVgnImbHHJ6Fd8IrJ8kVeUB2nmR0OZ6WqjOLqqLpKlk=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1438289086.340252,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1422737086.340252
+   },
+   "cXNY57P4RrEHl64lhRy8o1uPnlvGmX441KJqiOA6d0U=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1454373333.224442,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1422837333.224442
+   },
+   "f8oal7o/sUivNta/256sFl5Chw7UaDer2vBcK08T03I=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1454273132.666402,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1422737132.666402
+   },
+   "gl_renderer_string": "Gallium 0.4 on AMD CEDAR",
+   "gl_vendor_string": "X.Org",
+   "gl_version_string": "3.0 Mesa 10.1.3",
+   "hardware_acceleration_mode_previous": true,
+   "iOFoMhgt+IkjtnSW0Ia9HyX+f/vB7eVyCb97HcsatoA=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1454553982.040441,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1423017982.040441
+   },
+   "l+XBjgT99fSaTJ3A12w9y9kUk1vqgLBYvBBTlYuxtGI=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1454273132.856968,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1422737132.856968
+   },
+   "l7WmzPDHKZOY7F1OcATMaGTtqvYZ+ALbTrCCp3Do5ks=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1433907091.362953,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1423020691.362953
+   },
+   "local_state": {
+      "multiple_profile_prefs_version": 3
+   },
+   "myxca24Fg7L/IgePD/QeLaUxbyYNmJdOyLPYvlVtjPE=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1433825913.808004,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": true,
+      "sts_observed": 1422939513.808004
+   },
+   "network_time": {
+      "network_time_mapping": {
+         "local": 1423710386583.997,
+         "network": 1423710386641.768
+      }
+   },
+   "npkr+1C75z2mQykYCk/MwFJSJnyz6sVC2wGa8ThvC8I=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1422983890.227855,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1422980290.227855
+   },
+   "ntp": {
+      "promo_resource_cache_update": "1423705449.181478"
+   },
+   "pghPxF7JCJ2Gzq7EZ78EhQldaD5iM1flRYkGsv/lAjs=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1438572689.766463,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1423020689.766463
+   },
+   "policy": {
+      "last_statistics_update": "13068179043976378"
+   },
+   "profile": {
+      "info_cache": {
+         "Default": {
+            "active_time": 1423710363.513326,
+            "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_0",
+            "background_apps": true,
+            "gaia_given_name": "Narasimha Sumanth",
+            "gaia_name": "Narasimha Sumanth Yajamanyam",
+            "is_ephemeral": false,
+            "is_omitted_from_profile_list": false,
+            "is_using_default_avatar": true,
+            "is_using_default_name": false,
+            "managed_user_id": "",
+            "name": "Sumanth",
+            "user_name": "yajamanyamsumanth@gmail.com"
+         }
+      },
+      "last_active_profiles": [ "Default" ],
+      "last_used": "Default"
+   },
+   "protocol_handler": {
+      "excluded_schemes": {
+         "afp": true,
+         "data": true,
+         "disk": true,
+         "disks": true,
+         "file": true,
+         "hcp": true,
+         "javascript": true,
+         "mailto": false,
+         "ms-help": true,
+         "news": false,
+         "nntp": true,
+         "shell": true,
+         "snews": false,
+         "vbscript": true,
+         "view-source": true,
+         "vnd": {
+            "ms": {
+               "radio": true
+            }
+         }
+      }
+   },
+   "rappor": {
+      "cohort_seed": 411,
+      "last_daily_sample": "13068179058976078",
+      "secret": "fBAwk0majUWL5cEtsIzFAR3Fcu3d047Qmyb0ZPdZawL9Ae+t+SL+pl0b6WkyLkfN"
+   },
+   "shutdown": {
+      "num_processes": 0,
+      "num_processes_slow": 0,
+      "type": 0
+   },
+   "tXjOdUMSBgtiUbrbGkl6XP80fiDB8uXOkUbnCf0IKvw=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1423020690.468639,
+      "mode": "default",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 0.0,
+      "sts_include_subdomains": false,
+      "sts_observed": 1423020690.468639
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1423024445",
+      "launch_count": "10",
+      "page_load_count": "3627",
+      "uptime_sec": "60683"
+   },
+   "user_experience_metrics": {
+      "client_id2": "ï¿½ï¿½\rï¿½ï¿½\r\u000B_\u0005Kï¿½\u0004\u0001\u0002ï¿½Tï¿½\u0001ï¿½I\u0001ï¿½ï¿½\rï¿½ï¿½\r",
+      "client_id_timestamp": "1423024445",
+      "initial_logs_list": [  ],
+      "low_entropy_source2": 2608,
+      "ongoing_logs_list": [  ],
+      "session_id": 9,
+      "stability": {
+         "breakpad_registration_fail": 0,
+         "breakpad_registration_ok": 2,
+         "child_process_crash_count": 0,
+         "crash_count": 0,
+         "debugger_not_present": 2,
+         "debugger_present": 0,
+         "execution_phase": 500,
+         "exited_cleanly": false,
+         "extension_renderer_crash_count": 0,
+         "incomplete_session_end_count": 0,
+         "last_timestamp_sec": "1423710243",
+         "launch_count": 0,
+         "launch_time_sec": "1423705443",
+         "page_load_count": 4,
+         "renderer_crash_count": 0,
+         "renderer_hang_count": 0,
+         "saved_system_profile": "CO3yxqYFEg00MC4wLjIyMTQuMTExGMCyxqYFIgVlbi1VUyoaCgVMaW51eBIRMy4xMy4wLTQ1LWdlbmVyaWMycAoGeDg2XzY0EPYWIgAoATDWCjiABkJACAAQABoGMTAuMS4zIgAqDw0AAAAAFQAAAAAdAAAAADIFWC5Pcmc6GEdhbGxpdW0gMC40IG9uIEFNRCBDRURBUmUAAIA/ahIKDEdlbnVpbmVJbnRlbBDSjAg6NwoPU2hvY2t3YXZlIEZsYXNoEhRsaWJwZXBmbGFzaHBsYXllci5zbxoKMTYuMC4wLjMwNSAAKAE6PgocQ2hyb21lIFJlbW90ZSBEZXNrdG9wIFZpZXdlchIYaW50ZXJuYWwtcmVtb3Rpbmctdmlld2VyGgAgACgBOk0KIldpZGV2aW5lIENvbnRlbnQgRGVjcnlwdGlvbiBNb2R1bGUSGGxpYndpZGV2aW5lY2RtYWRhcHRlci5zbxoJMS40LjYuNzM4IAAoATorCg1OYXRpdmUgQ2xpZW50EhRpbnRlcm5hbC1uYWNsLXBsdWdpbhoAIAAoATokChFDaHJvbWUgUERGIFZpZXdlchIJbGlicGRmLnNvGgAgACgBSgoNbmFQ6RWAjX3KSgoNC4D06RWZBcM5SgoNMjT3GRWAjX3KSgoNuIq0dhUHcFaiSgoNyEEIxxVu72ZISgoNe7LhFRXfF0o/SgoNI2tASxXfF0o/SgoNLtc6HRWFUKbGSgoN8XVcnhWwzmmtSgoNe7ec9xX09Ec9SgoN/qllyhWCN6yRSgoNpgOjThX09Ec9SgoNhERUYRWAjX3KSgoNkd42lxWAjX3KSgoNIiNhshXicM/4SgoNrKFMJBV1BdZKSgoNVQjGOhWcKm5ISgoNDBmW8hWZr2WJSgoN4qpCRBUeZ1hxSgoNd9PRDhUUD8zhSgoNoPDwdRUUD8zhSgoNgYSx4hXeflluSgoNiRjn5xUUD8zhSgoN/AWkWBWRyqcGSgoNTsHwyxX9bD6/SgoNI0pkrxWAjX3KUARiAGoICAAQABgAIAaAAcCyxqYFkAEgkAEkkAEqkAFJkAGsAZABgwKQAaACkAHKApABmgOQAcYDkAHNA5AB0AOQAZ8EkAGzBJABiwWQAZcFkAG4BZAB4wWQAYMGkAHOBpAB6AaQAYMHkAHIB5AByQeQAd8HmAEC",
+         "saved_system_profile_hash": "CD19ED9B714BD58004DD59863586652C434C146E",
+         "session_end_completed": true,
+         "stats_buildtime": "1423030637",
+         "stats_version": "40.0.2214.111"
+      }
+   },
+   "variations_last_fetch_time": "13068179051150617",
+   "variations_seed": "Cig5NDc4MzE2ZWQ0NjhkZTA3YzhjMGY5MjJmOGJjZDZhODVjZjU0NWZhEs0BChRBc2tUb1N1Ym1pdFVSTEJ1YmJsZRjE7Zq1BTgBQg9OZXZlclNob3dCdWJibGVKewoKU2hvd0J1YmJsZRAyMiYKIWV4cGVyaW1lbnRfYWN0aXZlX2Zvcl91c2VyX3BlcmlvZBIBNzIgChlleHBlcmltZW50X2xlbmd0aF9pbl9kYXlzEgMzNjUyIQoSc2hvd19idWJibGVfc3RhdHVzEgtkb19ub3Rfc2hvd0oTCg9OZXZlclNob3dCdWJibGUQMlIKIAAgASgAKAMoAhJuCghBc3luY0RucxjE9+mUBTgAQgpTeXN0ZW1EbnNBSg4KClN5c3RlbURuc0EQGUoOCgpTeXN0ZW1EbnNCEBlKDQoJQXN5bmNEbnNBEBlKDQoJQXN5bmNEbnNCEBlSEBIEMjkuKiAAIAEoACgBKAISaQoIQXN5bmNEbnMYxIzDjgU4AEIJQXN5bmNEbnNBSg4KClN5c3RlbURuc0EQMkoOCgpTeXN0ZW1EbnNCEDJKDQoJQXN5bmNEbnNBEDJKDQoJQXN5bmNEbnNCEDJSDBIEMjguKiACKAEoAhJrCghBc3luY0RucxjEhoqRBTgAQglBc3luY0Ruc0FKDgoKU3lzdGVtRG5zQRAZSg4KClN5c3RlbURuc0IQGUoOCglBc3luY0Ruc0EQ2wNKDgoJQXN5bmNEbnNCENsDUgwSBDI2LiogAygBKAISwAEKFEF1dG9SZWxvYWRFeHBlcmltZW50GMSY5KMFOABCCERpc2FibGVkSgsKB0VuYWJsZWQQZEoLCgdDb250cm9sEABKKwoLRmxhZ0VuYWJsZWQQACoaZW5hYmxlLW9mZmxpbmUtYXV0by1yZWxvYWRKLQoMRmxhZ0Rpc2FibGVkEAAqG2Rpc2FibGUtb2ZmbGluZS1hdXRvLXJlbG9hZEoMCghEaXNhYmxlZBAAUhIgACABIAIgAygAKAEoAygCKAQS4wEKH0F1dG9SZWxvYWRWaXNpYmxlT25seUV4cGVyaW1lbnQYxJjkowU4AEIIRGlzYWJsZWRKCwoHRW5hYmxlZBBkSgsKB0NvbnRyb2wQAEo4CgtGbGFnRW5hYmxlZBAAKidlbmFibGUtb2ZmbGluZS1hdXRvLXJlbG9hZC12aXNpYmxlLW9ubHlKOgoMRmxhZ0Rpc2FibGVkEAAqKGRpc2FibGUtb2ZmbGluZS1hdXRvLXJlbG9hZC12aXNpYmxlLW9ubHlKDAoIRGlzYWJsZWQQAFIQIAAgASACIAMoACgBKAIoBBJhChpBdXRvY29tcGxldGVEeW5hbWljVHJpYWxfMhiAlJ+cBTgBQhBEZWZhdWx0Q29udHJvbF8wShQKEERlZmF1bHRDb250cm9sXzAQAVIOEgQzMy4qIAIoACgBKAJYvM7UQBJSChpBdXRvY29tcGxldGVEeW5hbWljVHJpYWxfMhiAhNyPBTgBQg5EZWZhdWx0Q29udHJvbEoSCg5EZWZhdWx0Q29udHJvbBBkUgggACgAKAEoAhJSChpBdXRvY29tcGxldGVEeW5hbWljVHJpYWxfMhiAhNyPBTgBQg5EZWZhdWx0Q29udHJvbEoSCg5EZWZhdWx0Q29udHJvbBBkUgggASgAKAEoAhKPAQoaQXV0b2NvbXBsZXRlRHluYW1pY1RyaWFsXzAYgMPQjAU4AUITTGl2ZVNwZWxsaW5nQ29udHJvbEogChZMaXZlU3BlbGxpbmdFeHBlcmltZW50ELYHGIaEygFKHAoTTGl2ZVNwZWxsaW5nQ29udHJvbBAyGIeEygFSFBIEMjYuKiAAIAEgAiADKAAoASgCEtsHChpBdXRvY29tcGxldGVEeW5hbWljVHJpYWxfMhiAlJ+cBTgBQhhEZWZhdWx0Q29udHJvbF9SMl9TdGFibGVKPwoxUG9zdHBlcmlvZF9FbmFibGVaZXJvU3VnZ2VzdF9SNV9TdGFibGVfRXhwZXJpbWVudBABGJqUygEgmpTKAUo/CjFQb3N0cGVyaW9kX0VuYWJsZVplcm9TdWdnZXN0X1I3X1N0YWJsZV9FeHBlcmltZW50EAEYhpTKASCGlMoBSj8KMVBvc3RwZXJpb2RfRW5hYmxlWmVyb1N1Z2dlc3RfUjZfU3RhYmxlX0V4cGVyaW1lbnQQARiblMoBIJuUygFKPAouUG9zdHBlcmlvZF9FbmFibGVaZXJvU3VnZ2VzdF9SN19TdGFibGVfQ29udHJvbBABGIeUygEgh5TKAUo8Ci5Qb3N0cGVyaW9kX0VuYWJsZVplcm9TdWdnZXN0X1I1X1N0YWJsZV9Db250cm9sEAEYnJTKASCclMoBSjwKLlBvc3RwZXJpb2RfRW5hYmxlWmVyb1N1Z2dlc3RfUjZfU3RhYmxlX0NvbnRyb2wQARidlMoBIJ2UygFKSgo8UG9zdHBlcmlvZF9FbmFibGVaZXJvU3VnZ2VzdE1vc3RWaXNpdGVkX1I3X1N0YWJsZV9FeHBlcmltZW50EAEYnpTKASCelMoBSjEKI1Bvc3RwZXJpb2RfUmVzdG9yZU5hdnN1Z2dlc3RfU3RhYmxlEAEYl5PKASCXk8oBSkcKOVBvc3RwZXJpb2RfRW5hYmxlWmVyb1N1Z2dlc3RfUjdfU3RhYmxlX01vc3RWaXNpdGVkQ29udHJvbBABGJ+UygEgn5TKAUo4CipQb3N0cGVyaW9kX1Jlc3RvcmVOYXZzdWdnZXN0Q29udHJvbF9TdGFibGUQARiYk8oBIJiTygFKLQofTmF2U3VnZ2VzdFVuaWZpY2F0aW9uX0ExX1N0YWJsZRABGKuTygEgq5PKAUotCh9OYXZTdWdnZXN0VW5pZmljYXRpb25fQTJfU3RhYmxlEAEYrJPKASCsk8oBSi0KH05hdlN1Z2dlc3RVbmlmaWNhdGlvbl9BM19TdGFibGUQARitk8oBIK2TygFKLQofTmF2U3VnZ2VzdFVuaWZpY2F0aW9uX0E0X1N0YWJsZRABGK6TygEgrpPKAUotCh9OYXZTdWdnZXN0VW5pZmljYXRpb25fQTVfU3RhYmxlEAEY/5PKASD/k8oBShwKGERlZmF1bHRDb250cm9sX1IyX1N0YWJsZRBVUg4SBDMwLiogAygAKAEoAli8ztRAEoYBChVBdXRvbWF0aWNQcm9maWxlUmVzZXQYxPGwlwU4AUIIRGlzYWJsZWRKGAoURGlzYWJsZWRDb250cm9sR3JvdXAQCkoKCgZEcnlSdW4QCkoLCgdFbmFibGVkEABKDAoIRGlzYWJsZWQQUFIVEgszMi4wLjE3MDAuMCACKAAoASgCWO6UtVESgwEKFUF1dG9tYXRpY1Byb2ZpbGVSZXNldBjE8bCXBTgBQghEaXNhYmxlZEoYChREaXNhYmxlZENvbnRyb2xHcm91cBAhSgoKBkRyeVJ1bhAhSgsKB0VuYWJsZWQQAEoMCghEaXNhYmxlZBAhUhcSCzMyLjAuMTY4Ni4wIAAgASgAKAEoAhJUCgpDTEQxVnNDTEQyGMTehZQFOAFCB0RlZmF1bHRKCAoEQ0xEMRABSggKBENMRDIQAUoLCgdEZWZhdWx0EGJSFBoEMzEuKiAAIAEgAigAKAEoAygCEpoBChhDYWNoZVNlbnNpdGl2aXR5QW5hbHlzaXMYxMr9igU4AEICTm9KBgoCTm8QJEoMCghDb250cm9sQRAISgwKCENvbnRyb2xCEAhKCAoEMTAwQRAISggKBDEwMEIQCEoICgQyMDBBEAhKCAoEMjAwQhAISggKBDQwMEEQCEoICgQ0MDBCEAhSEhIEMjUuKiAAIAEgAigAKAEoAhKdAQoYQ2FjaGVTZW5zaXRpdml0eUFuYWx5c2lzGMSy04oFOABCAk5vSgcKAk5vEOAHSgwKCENvbnRyb2xBEAFKDAoIQ29udHJvbEIQAUoICgQxMDBBEAFKCAoEMTAwQhABSggKBDIwMEEQAUoICgQyMDBCEAFKCAoENDAwQRABSggKBDQwMEIQAVIUCICnvooFEgQyNS4qIAMoACgBKAISVgoZQ2FwdGl2ZVBvcnRhbEludGVyc3RpdGlhbBjE95ivBTgBQghEaXNhYmxlZEoLCgdFbmFibGVkEDJKDAoIRGlzYWJsZWQQMlIMIAAgASgAKAEoAygCElYKDkNlcnRDYWNoZVRyaWFsGMS9up8FOAFCB0RlZmF1bHRKEwoPRXhwZXJpbWVudEdyb3VwEApKCwoHQ29udHJvbBAKSgsKB0RlZmF1bHQQUFIEIAAgARJdChRDVFJlcXVpcmVkRm9yRVZUcmlhbBjEgpe0BTgBQgdEZWZhdWx0ShcKE1JlcXVpcmVtZW50RW5mb3JjZWQQKEoLCgdEZWZhdWx0EDxSDiAAIAEgAigAKAEoAygCEowBChFDaHJvbWVTdWdnZXN0aW9ucxjE2sysBTgBQgdEZWZhdWx0ShMKBUZyZXVkEAoYu4nKASC7icoBShUKB0NvbnRyb2wQChi8icoBILyJygFKEwoFTWl4ZWQQChjCicoBIMKJygFKCwoHRGVmYXVsdBBGUhASBDMyLiogAigAKAEoAygCWO6X7fgLYAESjgEKEUNocm9tZVN1Z2dlc3Rpb25zGMTazKwFOAFCB0RlZmF1bHRKEwoFRnJldWQQGRi9icoBIL2JygFKFQoHQ29udHJvbBAZGL6JygEgvonKAUoTCgVNaXhlZBAZGMGJygEgwYnKAUoLCgdEZWZhdWx0EBlSEhIEMzIuKiAAIAEoACgBKAMoAlj7suTTCGABEowBChFDaHJvbWVTdWdnZXN0aW9ucxjE2sysBTgBQgdEZWZhdWx0ShMKBUZyZXVkEAEYtYnKASC1icoBShUKB0NvbnRyb2wQARi6icoBILqJygFKEwoFTWl4ZWQQARjDicoBIMOJygFKCwoHRGVmYXVsdBBhUhASBDMyLiogAygAKAEoAygCWLr/ifsBYAESfQocQ29va2llUmV0ZW50aW9uUHJpb3JpdHlTdHVkeRjAl8eYBTgBQgxFeHBlcmltZW50T25KFgoNRXhwZXJpbWVudE9mZhAAGJWKygFKFQoMRXhwZXJpbWVudE9uEGQYlorKAVIYGgQzMS4qIAAgASACIAMoACgBKAIoAygEEnQKIERlZmVyQmFja2dyb3VuZEV4dGVuc2lvbkNyZWF0aW9uGMTtjqAFOAFCC1JhdGVMaW1pdGVkSgwKCERlZmVycmVkEABKDwoLUmF0ZUxpbWl0ZWQQZFIcEgQzMS4qGgQzMy4qIAAgASACIAMoACgBKAMoAhJYChNEaXNwbGF5TGlzdDJkQ2FudmFzGMS/rqAFOABCCERpc2FibGVkSgsKB0VuYWJsZWQQMkoMCghEaXNhYmxlZBAyUhISBDM4LiogACABKAAoASgDKAJgARJEChFEbnNQcm9iZS1BdHRlbXB0cxiAtY2WBTgBQgdkZWZhdWx0SgsKB2RlZmF1bHQQWkoFCgExEApSChIEMjUuKiAAIAESRwoPRG5zUHJvYmUtRW5hYmxlGIC1jZYFOAFCB2Rpc2FibGVKCwoHZGlzYWJsZRAASgoKBmVuYWJsZRBkUgoSBDI1LiogACABEl8KDURvbVJlbC1FbmFibGUYxNLCswU4AEIHZGlzYWJsZUoLCgdjb250cm9sEABKCwoGZW5hYmxlEN4HSgsKB2Rpc2FibGUQClIWEgwzOC4wLjIxMjUuNTEoACgBKAIoBBJlCiNVTUEtRHluYW1pYy1CaW5hcnktVW5pZm9ybWl0eS1UcmlhbBiAxZatBTgBQgdkZWZhdWx0ShAKB2RlZmF1bHQQARiptskBShEKCGdyb3VwXzAxEAEYqrbJAVIGIAAgASACYAESYQojVU1BLUR5bmFtaWMtQmluYXJ5LVVuaWZvcm1pdHktVHJpYWwYgIOXtAU4AUIHZGVmYXVsdEoRCghncm91cF8wMRABGKq2yQFKEAoHZGVmYXVsdBBjGKm2yQFSAiADYAESuQEKHEVuYWJsZVNlc3Npb25DcmFzaGVkQnViYmxlVUkYxKzJpwU4AUIIRGlzYWJsZWRKMAoNRW5hYmxlZEJ5RmxhZxAAKh1lbmFibGUtc2Vzc2lvbi1jcmFzaGVkLWJ1YmJsZUoyCg5EaXNhYmxlZEJ5RmxhZxAAKh5kaXNhYmxlLXNlc3Npb24tY3Jhc2hlZC1idWJibGVKCwoHRW5hYmxlZBAASgwKCERpc2FibGVkEGRSBiADKAAoAhKMAgoRRW5oYW5jZWRCb29rbWFya3MYgMGuqwU4AUIHRGVmYXVsdEo+ChJFeHRlbnNpb24gKHB1YmxpYykQADImCgJpZBIgZ21sbGxiZ2huZmtwZmxlbWlobGpla2JhcGpvcGZqaWtKEQoNQ29udHJvbCBncm91cBAASi0KDk1hbnVhbCBpbnN0YWxsEAAqGW1hbnVhbC1lbmhhbmNlZC1ib29rbWFya3NKQwodTWFudWFsIGluc3RhbGwgKHVzZXIgb3B0LW91dCkQACogbWFudWFsLWVuaGFuY2VkLWJvb2ttYXJrcy1vcHRvdXRKCwoHRGVmYXVsdBBkUhISBDM5LiogAiADKAAoASgCKAMSkQIKEUVuaGFuY2VkQm9va21hcmtzGIDBrqsFOAFCB0RlZmF1bHRKPgoSRXh0ZW5zaW9uIChwdWJsaWMpEAoyJgoCaWQSIGdtbGxsYmdobmZrcGZsZW1paGxqZWtiYXBqb3BmamlrShEKDUNvbnRyb2wgZ3JvdXAQCkotCg5NYW51YWwgaW5zdGFsbBAAKhltYW51YWwtZW5oYW5jZWQtYm9va21hcmtzSkMKHU1hbnVhbCBpbnN0YWxsICh1c2VyIG9wdC1vdXQpEAAqIG1hbnVhbC1lbmhhbmNlZC1ib29rbWFya3Mtb3B0b3V0SgsKB0RlZmF1bHQQUFIXEgQzOS4qIAEgACgAKAEoAjIFZW4tVVMSggEKIFRocm90dGxlRXh0ZW5zaW9uQmFja2dyb3VuZFBhZ2VzGMS5mKgFOAFCB0RlZmF1bHRKFgoSVGhyb3R0bGVQZXJzaXN0ZW50EApKCwoHQ29udHJvbBAKSgsKB0RlZmF1bHQQUFIbEgs0MS4wLjIyNDMuMCAAIAEoACgBKAMoAjgAEoABCiBUaHJvdHRsZUV4dGVuc2lvbkJhY2tncm91bmRQYWdlcxjE9rupBTgBQgdEZWZhdWx0ShYKElRocm90dGxlUGVyc2lzdGVudBAKSgsKB0NvbnRyb2wQCkoLCgdEZWZhdWx0EFBSGRILNDEuMC4yMjQzLjAgAigAKAEoAygCOAAScAocRXh0ZW5zaW9uQ29udGVudFZlcmlmaWNhdGlvbhjE95ivBTgBQgROb25lSgsKB0VuZm9yY2UQMkoSCg5Db250cm9sRW5mb3JjZRAySggKBE5vbmUQAFIXEgszOC4wLjIxMTYuMCACKAAoASgDKAISlQEKHEV4dGVuc2lvbkNvbnRlbnRWZXJpZmljYXRpb24YxPeYrwU4AUIETm9uZUoNCglCb290c3RyYXAQAEoLCgdFbmZvcmNlEDJKFAoQQ29udHJvbEJvb3RzdHJhcBAAShIKDkNvbnRyb2xFbmZvcmNlEDJKCAoETm9uZRAAUhcSCzM4LjAuMjExNi4wIAAoACgBKAMoAhKVAQocRXh0ZW5zaW9uQ29udGVudFZlcmlmaWNhdGlvbhjE95ivBTgBQgROb25lSg0KCUJvb3RzdHJhcBAASgsKB0VuZm9yY2UQMkoUChBDb250cm9sQm9vdHN0cmFwEABKEgoOQ29udHJvbEVuZm9yY2UQMkoICgROb25lEABSFxILMzguMC4yMTE2LjAgASgAKAEoAygCEpcBChxFeHRlbnNpb25Db250ZW50VmVyaWZpY2F0aW9uGMT3mK8FOAFCBE5vbmVKCwoHRW5mb3JjZRBkShIKDkNvbnRyb2xFbmZvcmNlEABKDQoJQm9vdHN0cmFwEABKFAoQQ29udHJvbEJvb3RzdHJhcBAASggKBE5vbmUQAFIZEg0zOC4wLjIxMjUuMTExIAMoACgBKAMoAhJMChxFeHRlbnNpb25JbnN0YWxsVmVyaWZpY2F0aW9uGMTo+LIFOAFCBE5vbmVKCAoETm9uZRBkUhQSBDMzLiogACABIAIgAygBKAMoAhJXChRGb3JjZUNvbXBvc2l0aW5nTW9kZRiAt6ScBTgBQgdkaXNhYmxlSgsKB2Rpc2FibGUQZEoLCgdlbmFibGVkEABKCgoGdGhyZWFkEABSCBIEMjQuKigCEksKA0dDTRjE2sysBTgBQghEaXNhYmxlZEoLCgdFbmFibGVkEGRKCwoHQ29udHJvbBAASgwKCERpc2FibGVkEABSCiACKAAoASgDKAISTQoDR0NNGMTazKwFOAFCCERpc2FibGVkSgsKB0VuYWJsZWQQZEoLCgdDb250cm9sEABKDAoIRGlzYWJsZWQQAFIMIAAgASgAKAEoAygCEksKA0dDTRjE2sysBTgBQghEaXNhYmxlZEoLCgdFbmFibGVkEGRKCwoHQ29udHJvbBAASgwKCERpc2FibGVkEABSCiADKAAoASgDKAISiAIKCUdvb2dsZU5vdxjEgpe0BTgBQgdEZWZhdWx0SgoKBkVuYWJsZRBkSjQKEkVuYWJsZU5vQmFja2dyb3VuZBAAMhwKE2NhbkVuYWJsZUJhY2tncm91bmQSBWZhbHNlSgsKB0NvbnRyb2wQAEoLCgdEZWZhdWx0EABKMwoPRGlzYWJsZWRWaWFGbGFnEAAqHmRpc2FibGUtZ29vZ2xlLW5vdy1pbnRlZ3JhdGlvbkoxCg5FbmFibGVkVmlhRmxhZxAAKh1lbmFibGUtZ29vZ2xlLW5vdy1pbnRlZ3JhdGlvblIgEgszNC4wLjE3OTcuKiAAIAEoACgBKAMoAjIFZW4tVVNY89Lh1AcSkwEKDUhvc3RDYWNoZVNpemUYxKz3hwU4AEIHRGVmYXVsdEoLCgdEZWZhdWx0EABKCAoEMTAwQRAKSggKBDEwMEIQCkoICgQzMDBBEApKCAoEMzAwQhAKSgkKBTEwMDBBEApKCQoFMTAwMEIQCkoJCgUzMDAwQRAKSgkKBTMwMDBCEApSEBIEMjUuKiAAIAEoACgBKAISUQoWSHBhY2tIdWZmbWFuQWdncmVnYXRvchjEqrKhBTgAQghEaXNhYmxlZEoLCgdFbmFibGVkEApKDAoIRGlzYWJsZWQQWlIKEgQzNi4qIAAgARJECg1JbmZpbml0ZUNhY2hlGMS0jZYFOAFCAk5vSgcKAk5vENQHSgcKA1llcxAKSgsKB0NvbnRyb2wQClIIIAIoACgBKAISRgoNSW5maW5pdGVDYWNoZRjEtI2WBTgBQgJOb0oHCgJObxCEB0oHCgNZZXMQMkoLCgdDb250cm9sEDJSCiAAIAEoACgBKAISRAoNSW5maW5pdGVDYWNoZRjEtI2WBTgBQgJOb0oHCgJObxDmB0oHCgNZZXMQAUoLCgdDb250cm9sEAFSCCADKAAoASgCEpQCChZJbnRlcnN0aXRpYWxNYWx3YXJlMzEwGMCXpJMFOAFCB0RlZmF1bHRKFwoTY29uZDFNYWx3YXJlQ29udHJvbBADShcKE2NvbmQyTWFsd2FyZU5vQnJhbmQQA0oXChNjb25kNU1hbHdhcmVPbmVTdGVwEANKFwoTY29uZDdNYWx3YXJlRmVhck1zZxADShkKFWNvbmQ5TWFsd2FyZUNvbGxhYk1zZxADShkKFWNvbmQxMU1hbHdhcmVRdWVzdGlvbhADShcKE2NvbmQxM01hbHdhcmVHb0JhY2sQA0oMCgdEZWZhdWx0ELMBUigIwNmjjAUSBDI5LioaBDMyLiooACgBKAIoAzIFZW4tVVMyBWVuLUdCEp0CChdJbnRlcnN0aXRpYWxQaGlzaGluZzU2NBjAl6STBTgBQgdEZWZhdWx0ShgKFGNvbmQzUGhpc2hpbmdDb250cm9sEANKGAoUY29uZDRQaGlzaGluZ05vQnJhbmQQA0oYChRjb25kNlBoaXNoaW5nT25lU3RlcBADShgKFGNvbmQ4UGhpc2hpbmdGZWFyTXNnEANKGwoXY29uZDEwUGhpc2hpbmdDb2xsYWJNc2cQA0oaChZjb25kMTJQaGlzaGluZ1F1ZXN0aW9uEANKGAoUY29uZDE0UGhpc2hpbmdHb0JhY2sQA0oMCgdEZWZhdWx0ELMBUigIwNmjjAUSBDI5LioaBDMyLiooACgBKAIoAzIFZW4tVVMyBWVuLUdCEuwDChpNYWx3YXJlSW50ZXJzdGl0aWFsVmVyc2lvbhjE+5ehBTgBQgJWM0oZChVPbGRFeHBlcmltZW50YWxHcm91cHMQBkoGCgJWMhAFSgwKCFYzQWR2aWNlEAVKDAoIVjNTb2NpYWwQBUoSCg5WM05vdFJlY29tbWVuZBAFSg0KCVYzSGlzdG9yeRAFSgsKB0NvbnRyb2wQBUoGCgJWMxBASiYKCUZvcmNlZF9WMhAAKhdtYWx3YXJlLWludGVyc3RpdGlhbC12MkozCg9Gb3JjZWRfVjNBZHZpY2UQACoebWFsd2FyZS1pbnRlcnN0aXRpYWwtdjMtYWR2aWNlSjMKD0ZvcmNlZF9WM1NvY2lhbBAAKh5tYWx3YXJlLWludGVyc3RpdGlhbC12My1zb2NpYWxKQAoVRm9yY2VkX1YzTm90UmVjb21tZW5kEAAqJW1hbHdhcmUtaW50ZXJzdGl0aWFsLXYzLW5vdC1yZWNvbW1lbmRKNQoQRm9yY2VkX1YzSGlzdG9yeRAAKh9tYWx3YXJlLWludGVyc3RpdGlhbC12My1oaXN0b3J5SiYKCUZvcmNlZF9WMxAAKhdtYWx3YXJlLWludGVyc3RpdGlhbC12M1IYEgQzNy4qGgQzNy4qIAIoACgBKAMoAigEEqoCChJJbnRlcnN0aXRpYWxTU0w1MTcYwJ6XkQU4AUIHRGVmYXVsdEoZChVDb25kaXRpb24xNVNTTENvbnRyb2wQA0oZChVDb25kaXRpb24xNlNTTEZpcmVmb3gQA0oeChpDb25kaXRpb24xN1NTTEZhbmN5RmlyZWZveBADShoKFkNvbmRpdGlvbjE4U1NMTm9JbWFnZXMQA0obChdDb25kaXRpb24xOVNTTFBvbGljZW1hbhADShsKF0NvbmRpdGlvbjIwU1NMU3RvcGxpZ2h0EANKGAoUQ29uZGl0aW9uMjFTU0xCYWRndXkQA0oMCgdEZWZhdWx0ELMBUi8IwNmjjAUSCzI5LjAuMTU0My4qGgQzMC4qKAAoASgCKAMyBWVuLVVTMgVlbi1HQhKHAwoWU1NMSW50ZXJzdGl0aWFsVmVyc2lvbhjEvICfBTgBQgJWMkoGCgJWMRAAShIKDlYxTGF5b3V0VjJUZXh0EABKDwoLVjJXaXRoR3VhcmQQAEoMCghWMlllbGxvdxAASgsKB0NvbnRyb2wQAEoGCgJWMhBkSiIKCUZvcmNlZF9WMRAAKhNzc2wtaW50ZXJzdGl0aWFsLXYxSjYKFUZvcmNlZF9WMUxheW91dFYyVGV4dBAAKhtzc2wtaW50ZXJzdGl0aWFsLXYxLXYyLXRleHRKMQoSRm9yY2VkX1YyV2l0aEd1YXJkEAAqGXNzbC1pbnRlcnN0aXRpYWwtdjItZ3VhcmRKLwoPRm9yY2VkX1YyWWVsbG93EAAqGnNzbC1pbnRlcnN0aXRpYWwtdjIteWVsbG93SiIKCUZvcmNlZF9WMhAAKhNzc2wtaW50ZXJzdGl0aWFsLXYyUicIxK+xngUSBDM4LioaBDM5LiogACABKAAoASgDKAIoBDIFZW4tVVNY+cDmjQgS0gEKGExvYWRTdGFsZUNhY2hlRXhwZXJpbWVudBjE15KWBTgBQgdEZWZhdWx0SgsKB0VuYWJsZWQQBUoLCgdDb250cm9sEAVKMAoLRmxhZ0VuYWJsZWQQACofZW5hYmxlLW9mZmxpbmUtbG9hZC1zdGFsZS1jYWNoZUoyCgxGbGFnRGlzYWJsZWQQACogZGlzYWJsZS1vZmZsaW5lLWxvYWQtc3RhbGUtY2FjaGVKCwoHRGVmYXVsdBBaUhAgACABIAIoACgBKAMoAigEWIW+5JgNYAESUQoRTWFuYWdlZE1vZGVMYXVuY2gYgNqpnAU4AUIISW5hY3RpdmVKCgoGQWN0aXZlEGRKDAoISW5hY3RpdmUQAFIQEgQzMC4qIAAgASgAKAEoAhJRChFNYW5hZ2VkTW9kZUxhdW5jaBiA2qmcBTgBQghJbmFjdGl2ZUoKCgZBY3RpdmUQZEoMCghJbmFjdGl2ZRAAUhASBDMxLiogAigAKAEoAigDElYKEU1hbmFnZWRNb2RlTGF1bmNoGIDujqAFOAFCCEluYWN0aXZlSgoKBkFjdGl2ZRBkSgwKCEluYWN0aXZlEABSEBIEMzIuKiADKAAoASgCKANYpqu8GBKzAQoRTWF0ZXJpYWxEZXNpZ25OVFAYxPTqrQU4AUIHRGVmYXVsdEoVCgdDb250cm9sEAEgqonKAUCqicoBShUKB0VuYWJsZWQQYyCricoBQKuJygFKOAoORW5hYmxlZF9mb3JjZWQQACCsicoBKhplbmFibGUtbWF0ZXJpYWwtZGVzaWduLW50cECsicoBSgsKB0RlZmF1bHQQAFIWEgQ0MC4qGgQ0MC4qIAIoACgBKAMoAmABEnEKEU1hdGVyaWFsRGVzaWduTlRQGMT06q0FOAFCB0RlZmF1bHRKFQoHQ29udHJvbBABIKqJygFAqonKAUoVCgdFbmFibGVkEGMgq4nKAUCricoBSgsKB0RlZmF1bHQQAFIOEgQ0MS4qKAAoASgDKAJgARK5AQoRTWF0ZXJpYWxEZXNpZ25OVFAYxPTqrQU4AUIHRGVmYXVsdEoVCgdDb250cm9sEAEgqonKAUCqicoBShUKB0VuYWJsZWQQYyCricoBQKuJygFKOAoORW5hYmxlZF9mb3JjZWQQACCsicoBKhplbmFibGUtbWF0ZXJpYWwtZGVzaWduLW50cECsicoBSgsKB0RlZmF1bHQQAFIWEgQ0MC4qGgQ0MC4qIAMoACgBKAMoAljjisrgC2ABElsKH01lZGlhU3RyZWFtQXVkaW9UcmFja1Byb2Nlc3NpbmcYxPPHnQU4AUIHRW5hYmxlZEoMCghEaXNhYmxlZBAASgsKB0VuYWJsZWQQZFIMIAAoACgBKAMoAigEEpICChhNb3N0VmlzaXRlZFRpbGVQbGFjZW1lbnQYgP6ikgU4AUIHRGVmYXVsdEoWChJPbmVFaWdodF9BX0ZsaXBwZWQQA0oOCgpPbmVFaWdodF9CEANKFgoST25lRWlnaHRfQ19GbGlwcGVkEANKDgoKT25lRWlnaHRfRBADShUKEU9uZUZvdXJfQV9GbGlwcGVkEANKDQoJT25lRm91cl9CEANKFQoRT25lRm91cl9DX0ZsaXBwZWQQA0oNCglPbmVGb3VyX0QQA0oLCgdDb250cm9sEANKFAoQRG9udFNob3dPcGVuVGFicxADSgsKB0RlZmF1bHQQRlIZEgsyOC4wLjE0OTYuMCABIAAoACgBKAIoAxKSAQoUTW91c2VFdmVudFByZWNvbm5lY3QYxLSNlgU4AEIIRGlzYWJsZWRKDQoJTW91c2VEb3duEB5KDQoJTW91c2VPdmVyEABKEgoOVGFwVW5jb25maXJtZWQQAEoLCgdUYXBEb3duEABKCwoHQ29udHJvbBAeSgwKCERpc2FibGVkEChSDhIEMjkuKiACKAAoASgCEpgBChRNb3VzZUV2ZW50UHJlY29ubmVjdBjEtI2WBTgAQghEaXNhYmxlZEoNCglNb3VzZURvd24QCkoNCglNb3VzZU92ZXIQAEoSCg5UYXBVbmNvbmZpcm1lZBAASgsKB1RhcERvd24QAEoLCgdDb250cm9sEApKDAoIRGlzYWJsZWQQUFIUEgQyOS4qIAAgASgAKAEoAigDKAQS8QMKFE5ld1Byb2ZpbGVNYW5hZ2VtZW50GMSCl7QFOAFCDU9sZEF2YXRhck1lbnVKOQoVQ29tbWFuZC1MaW5lLURpc2FibGVkEAAqHmRpc2FibGUtbmV3LXByb2ZpbGUtbWFuYWdlbWVudEpJCihBY2NvdW50Q29uc2lzdGVuY3ktQ29tbWFuZC1MaW5lLURpc2FibGVkEAAqG2Rpc2FibGUtYWNjb3VudC1jb25zaXN0ZW5jeUo9CiBBdmF0YXJNZW51LUNvbW1hbmQtTGluZS1EaXNhYmxlZBAAKhdkaXNhYmxlLW5ldy1hdmF0YXItbWVudUowChRDb21tYW5kLUxpbmUtRW5hYmxlZBAAKhZuZXctcHJvZmlsZS1tYW5hZ2VtZW50SkcKJ0FjY291bnRDb25zaXN0ZW5jeS1Db21tYW5kLUxpbmUtRW5hYmxlZBAAKhplbmFibGUtYWNjb3VudC1jb25zaXN0ZW5jeUo7Ch9BdmF0YXJNZW51LUNvbW1hbmQtTGluZS1FbmFibGVkEAAqFmVuYWJsZS1uZXctYXZhdGFyLW1lbnVKEQoNTmV3QXZhdGFyTWVudRBkShEKDU9sZEF2YXRhck1lbnUQAFIdCMTUqp8FEgszOC4wLjIxMjAuMCACKAAoASgCOABgARL/AwoUTmV3UHJvZmlsZU1hbmFnZW1lbnQYxOTWuwU4AUINT2xkQXZhdGFyTWVudUo5ChVDb21tYW5kLUxpbmUtRGlzYWJsZWQQACoeZGlzYWJsZS1uZXctcHJvZmlsZS1tYW5hZ2VtZW50SkkKKEFjY291bnRDb25zaXN0ZW5jeS1Db21tYW5kLUxpbmUtRGlzYWJsZWQQACobZGlzYWJsZS1hY2NvdW50LWNvbnNpc3RlbmN5Sj0KIEF2YXRhck1lbnUtQ29tbWFuZC1MaW5lLURpc2FibGVkEAAqF2Rpc2FibGUtbmV3LWF2YXRhci1tZW51SjAKFENvbW1hbmQtTGluZS1FbmFibGVkEAAqFm5ldy1wcm9maWxlLW1hbmFnZW1lbnRKRwonQWNjb3VudENvbnNpc3RlbmN5LUNvbW1hbmQtTGluZS1FbmFibGVkEAAqGmVuYWJsZS1hY2NvdW50LWNvbnNpc3RlbmN5SjsKH0F2YXRhck1lbnUtQ29tbWFuZC1MaW5lLUVuYWJsZWQQACoWZW5hYmxlLW5ldy1hdmF0YXItbWVudUoRCg1OZXdBdmF0YXJNZW51EGRKCwoHQ29udHJvbBAAShEKDU9sZEF2YXRhck1lbnUQAFIeCMSt4KIFEgwzOS4wLjIxNzEuNDIgAygAKAEoAjgAYAESgAQKFE5ld1Byb2ZpbGVNYW5hZ2VtZW50GMSCl7QFOAFCDU5ld0F2YXRhck1lbnVKOQoVQ29tbWFuZC1MaW5lLURpc2FibGVkEAAqHmRpc2FibGUtbmV3LXByb2ZpbGUtbWFuYWdlbWVudEpJCihBY2NvdW50Q29uc2lzdGVuY3ktQ29tbWFuZC1MaW5lLURpc2FibGVkEAAqG2Rpc2FibGUtYWNjb3VudC1jb25zaXN0ZW5jeUo9CiBBdmF0YXJNZW51LUNvbW1hbmQtTGluZS1EaXNhYmxlZBAAKhdkaXNhYmxlLW5ldy1hdmF0YXItbWVudUowChRDb21tYW5kLUxpbmUtRW5hYmxlZBAAKhZuZXctcHJvZmlsZS1tYW5hZ2VtZW50SkcKJ0FjY291bnRDb25zaXN0ZW5jeS1Db21tYW5kLUxpbmUtRW5hYmxlZBAAKhplbmFibGUtYWNjb3VudC1jb25zaXN0ZW5jeUo7Ch9BdmF0YXJNZW51LUNvbW1hbmQtTGluZS1FbmFibGVkEAAqFmVuYWJsZS1uZXctYXZhdGFyLW1lbnVKCwoHRW5hYmxlZBBkShEKDU9sZEF2YXRhck1lbnUQAEoRCg1OZXdBdmF0YXJNZW51EABSHwjEy8OgBRILMzkuMC4yMTUyLjAgACABKAAoASgCOABgARKcDwoaT21uaWJveEJ1bmRsZWRFeHBlcmltZW50VjEYgO+xsAU4AUIFRW1wdHlKoAEKK0JldGFIVVBTY29yaW5nRXhwZXJpbWVudF9Db250cm9sX1Bvc3RwZXJpb2QQChjnlMoBMhoKEkJvb2ttYXJrc0luZGV4VVJMcxIEdHJ1ZTIWChBIUVBCb29rbWFya1ZhbHVlEgIxMDITCgtaZXJvU3VnZ2VzdBIEdHJ1ZTIhChJaZXJvU3VnZ2VzdFZhcmlhbnQSC0FmdGVyVHlwaW5nSpsBCiZCZXRhSFVQU2NvcmluZ0V4cGVyaW1lbnRfQTFfUG9zdHBlcmlvZBAKGOeUygEyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMhMKC1plcm9TdWdnZXN0EgR0cnVlMiEKElplcm9TdWdnZXN0VmFyaWFudBILQWZ0ZXJUeXBpbmdKpQEKK0JldGFfSFFQRGlzYWJsZWRfSFVQRGVjYXlFeHBlcmltZW50X0NvbnRyb2wQDxiOlcoBII6VygEyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMhMKC1plcm9TdWdnZXN0EgR0cnVlMiEKElplcm9TdWdnZXN0VmFyaWFudBILQWZ0ZXJUeXBpbmdKpAEKE0JldGFfSFFQRGlzYWJsZWRfQTEQDxiPlcoBII+VygEyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhUKEERpc2FibGVQcm92aWRlcnMSATQyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyEwoLWmVyb1N1Z2dlc3QSBHRydWUyIQoSWmVyb1N1Z2dlc3RWYXJpYW50EgtBZnRlclR5cGluZ0rqAgoaQmV0YV9IVVBEZWNheUV4cGVyaW1lbnRfQTIQDxiQlcoBIJCVygEyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMiIKHUhVUEV4cGVyaW1lbnRhbFNjb3JpbmdFbmFibGVkEgExMhwKFlR5cGVkQ291bnRIYWxmTGlmZVRpbWUSAjMwMl0KFlR5cGVkQ291bnRTY29yZUJ1Y2tldHMSQzEuMDoxNDEzLDAuOTc6MTM5MCwwLjkzOjEzNjAsMC44NToxMzQwLDAuNzI6MTMyMCwwLjUwOjEyNTAsMC4wOjEyMDMyMwoYVmlzaXRlZENvdW50SGFsZkxpZmVUaW1lEhc0LjA6NzkwLDAuNTo1OTAsMC4wOjEwMDITCgtaZXJvU3VnZ2VzdBIEdHJ1ZTIhChJaZXJvU3VnZ2VzdFZhcmlhbnQSC0FmdGVyVHlwaW5nSo0DCiZCZXRhX0hRUERpc2FibGVkX0hVUERlY2F5RXhwZXJpbWVudF9BMxAPGJGVygEgkZXKATIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFQoQRGlzYWJsZVByb3ZpZGVycxIBNDIWChBIUVBCb29rbWFya1ZhbHVlEgIxMDIiCh1IVVBFeHBlcmltZW50YWxTY29yaW5nRW5hYmxlZBIBMTIcChZUeXBlZENvdW50SGFsZkxpZmVUaW1lEgIzMDJdChZUeXBlZENvdW50U2NvcmVCdWNrZXRzEkMxLjA6MTQxMywwLjk3OjEzOTAsMC45MzoxMzYwLDAuODU6MTM0MCwwLjcyOjEzMjAsMC41MDoxMjUwLDAuMDoxMjAzMjMKGFZpc2l0ZWRDb3VudEhhbGZMaWZlVGltZRIXNC4wOjc5MCwwLjU6NTkwLDAuMDoxMDAyEwoLWmVyb1N1Z2dlc3QSBHRydWUyIQoSWmVyb1N1Z2dlc3RWYXJpYW50EgtBZnRlclR5cGluZ0qWAQocQmV0YV9Ob25Nb25vdG9uaWNpdHlfQ29udHJvbBAFGP2UygEg/ZTKATIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyEwoLWmVyb1N1Z2dlc3QSBHRydWUyIQoSWmVyb1N1Z2dlc3RWYXJpYW50EgtBZnRlclR5cGluZ0qZAQofQmV0YV9Ob25Nb25vdG9uaWNpdHlfRXhwZXJpbWVudBAFGP6UygEg/pTKATIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyEwoLWmVyb1N1Z2dlc3QSBHRydWUyIQoSWmVyb1N1Z2dlc3RWYXJpYW50EgtBZnRlclR5cGluZ0p9CghTdGFuZGFyZBAKGOeUygEyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMhMKC1plcm9TdWdnZXN0EgR0cnVlMiEKElplcm9TdWdnZXN0VmFyaWFudBILQWZ0ZXJUeXBpbmdKCQoFRW1wdHkQAFIdCMSAro4FEgs0MC4wLjIyMTQuKiACKAAoASgDKAJYvpvY1gcSoxIKGk9tbmlib3hCdW5kbGVkRXhwZXJpbWVudFYxGIDvsbAFOAFCBUVtcHR5SjYKFFNlYXJjaEhpc3RvcnlEaXNhYmxlEAAyHAoRU2VhcmNoSGlzdG9yeToqOioSB0Rpc2FibGVKqAEKF0RldkhRUEFsbG93TWF0Y2hJblRMRFIyEAoY55TKATIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyGgoSSFFQQWxsb3dNYXRjaEluVExEEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMhMKC1plcm9TdWdnZXN0EgR0cnVlMiEKElplcm9TdWdnZXN0VmFyaWFudBILQWZ0ZXJUeXBpbmdK0AEKIERldkhRUEFsbG93TWF0Y2hJblRMREFuZFNjaGVtZVIyEAoY55TKATIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyHQoVSFFQQWxsb3dNYXRjaEluU2NoZW1lEgR0cnVlMhoKEkhRUEFsbG93TWF0Y2hJblRMRBIEdHJ1ZTIWChBIUVBCb29rbWFya1ZhbHVlEgIxMDITCgtaZXJvU3VnZ2VzdBIEdHJ1ZTIhChJaZXJvU3VnZ2VzdFZhcmlhbnQSC0FmdGVyVHlwaW5nSq4BChpEZXZIUVBBbGxvd01hdGNoSW5TY2hlbWVSMhAKGOeUygEyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMh0KFUhRUEFsbG93TWF0Y2hJblNjaGVtZRIEdHJ1ZTIWChBIUVBCb29rbWFya1ZhbHVlEgIxMDITCgtaZXJvU3VnZ2VzdBIEdHJ1ZTIhChJaZXJvU3VnZ2VzdFZhcmlhbnQSC0FmdGVyVHlwaW5nSrUBChtEaXNwbGF5SGludFRleHRXaGVuUG9zc2libGUQChjnlMoBMhoKEkJvb2ttYXJrc0luZGV4VVJMcxIEdHJ1ZTIjChtEaXNwbGF5SGludFRleHRXaGVuUG9zc2libGUSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyEwoLWmVyb1N1Z2dlc3QSBHRydWUyIQoSWmVyb1N1Z2dlc3RWYXJpYW50EgtBZnRlclR5cGluZ0qfAQoqRGV2SFVQU2NvcmluZ0V4cGVyaW1lbnRfQ29udHJvbF9Qb3N0cGVyaW9kEAoY55TKATIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyEwoLWmVyb1N1Z2dlc3QSBHRydWUyIQoSWmVyb1N1Z2dlc3RWYXJpYW50EgtBZnRlclR5cGluZ0qaAQolRGV2SFVQU2NvcmluZ0V4cGVyaW1lbnRfQTFfUG9zdHBlcmlvZBAKGOeUygEyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMhMKC1plcm9TdWdnZXN0EgR0cnVlMiEKElplcm9TdWdnZXN0VmFyaWFudBILQWZ0ZXJUeXBpbmdKmwEKK0Rldl9IVVBTY29yaW5nRXhwZXJpbWVudF9Db250cm9sX1Bvc3RwZXJpb2QQBTIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyEwoLWmVyb1N1Z2dlc3QSBHRydWUyIQoSWmVyb1N1Z2dlc3RWYXJpYW50EgtBZnRlclR5cGluZ0qiAQoyRGV2X0hRUERpc2FibGVkX0hVUFNjb3JpbmdFeHBlcmltZW50X0ExX1Bvc3RwZXJpb2QQBTIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyEwoLWmVyb1N1Z2dlc3QSBHRydWUyIQoSWmVyb1N1Z2dlc3RWYXJpYW50EgtBZnRlclR5cGluZ0qnAQo3RGV2X1R3b1dheUNsdXN0ZXJpbmdfSFVQU2NvcmluZ0V4cGVyaW1lbnRfQTJfUG9zdHBlcmlvZBAFMhoKEkJvb2ttYXJrc0luZGV4VVJMcxIEdHJ1ZTIWChBIUVBCb29rbWFya1ZhbHVlEgIxMDITCgtaZXJvU3VnZ2VzdBIEdHJ1ZTIhChJaZXJvU3VnZ2VzdFZhcmlhbnQSC0FmdGVyVHlwaW5nSrMBCkNEZXZfVHdvV2F5Q2x1c3RlcmluZ19IVVBTY29yaW5nRXhwZXJpbWVudF9IUVBEaXNhYmxlZF9BM19Qb3N0cGVyaW9kEAUyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMhMKC1plcm9TdWdnZXN0EgR0cnVlMiEKElplcm9TdWdnZXN0VmFyaWFudBILQWZ0ZXJUeXBpbmdKlQEKG0Rldl9Ob25Nb25vdG9uaWNpdHlfQ29udHJvbBAFGPuUygEg+5TKATIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyEwoLWmVyb1N1Z2dlc3QSBHRydWUyIQoSWmVyb1N1Z2dlc3RWYXJpYW50EgtBZnRlclR5cGluZ0qYAQoeRGV2X05vbk1vbm90b25pY2l0eV9FeHBlcmltZW50EAUY/JTKASD8lMoBMhoKEkJvb2ttYXJrc0luZGV4VVJMcxIEdHJ1ZTIWChBIUVBCb29rbWFya1ZhbHVlEgIxMDITCgtaZXJvU3VnZ2VzdBIEdHJ1ZTIhChJaZXJvU3VnZ2VzdFZhcmlhbnQSC0FmdGVyVHlwaW5nSo8BChpEZXZIUVBFeHBlcmltZW50c0NvbnRyb2xSMhAKGOeUygEyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMhMKC1plcm9TdWdnZXN0EgR0cnVlMiEKElplcm9TdWdnZXN0VmFyaWFudBILQWZ0ZXJUeXBpbmdKCQoFRW1wdHkQAFIfCMTFoZMFEgs0MC4wLjIyMTQuKiAAIAEoACgBKAMoAljEhMfhBhKZMAoaT21uaWJveEJ1bmRsZWRFeHBlcmltZW50VjEYgO+xsAU4AUIFRW1wdHlKnAEKG05ld1N1Z2dlc3RUeXBlX0ExX1N0YWJsZV9SMRAKGI+UygEgj5TKATIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyKAogSFFQRGlzY291bnRGcmVjZW5jeVdoZW5GZXdWaXNpdHMSBHRydWUyEwoLWmVyb1N1Z2dlc3QSBHRydWVKnAEKG05ld1N1Z2dlc3RUeXBlX0EyX1N0YWJsZV9SMRAKGJCUygEgkJTKATIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyKAogSFFQRGlzY291bnRGcmVjZW5jeVdoZW5GZXdWaXNpdHMSBHRydWUyEwoLWmVyb1N1Z2dlc3QSBHRydWVKnAEKG05ld1N1Z2dlc3RUeXBlX0EzX1N0YWJsZV9SMRAKGJGUygEgkZTKATIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyKAogSFFQRGlzY291bnRGcmVjZW5jeVdoZW5GZXdWaXNpdHMSBHRydWUyEwoLWmVyb1N1Z2dlc3QSBHRydWVKnAEKG05ld1N1Z2dlc3RUeXBlX0E0X1N0YWJsZV9SMRAKGJKUygEgkpTKATIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyKAogSFFQRGlzY291bnRGcmVjZW5jeVdoZW5GZXdWaXNpdHMSBHRydWUyEwoLWmVyb1N1Z2dlc3QSBHRydWVKlwEKIEhpdmVtaW5kX0ExX1N0YWJsZV9SN19Qb3N0cGVyaW9kEAoyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMigKIEhRUERpc2NvdW50RnJlY2VuY3lXaGVuRmV3VmlzaXRzEgR0cnVlMhMKC1plcm9TdWdnZXN0EgR0cnVlSpcBCiBIaXZlbWluZF9BMl9TdGFibGVfUjdfUG9zdHBlcmlvZBAKMhoKEkJvb2ttYXJrc0luZGV4VVJMcxIEdHJ1ZTIWChBIUVBCb29rbWFya1ZhbHVlEgIxMDIoCiBIUVBEaXNjb3VudEZyZWNlbmN5V2hlbkZld1Zpc2l0cxIEdHJ1ZTITCgtaZXJvU3VnZ2VzdBIEdHJ1ZUqXAQogSGl2ZW1pbmRfQTNfU3RhYmxlX1I3X1Bvc3RwZXJpb2QQCjIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyKAogSFFQRGlzY291bnRGcmVjZW5jeVdoZW5GZXdWaXNpdHMSBHRydWUyEwoLWmVyb1N1Z2dlc3QSBHRydWVKlwEKIEhpdmVtaW5kX0E0X1N0YWJsZV9SN19Qb3N0cGVyaW9kEAoyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMigKIEhRUERpc2NvdW50RnJlY2VuY3lXaGVuRmV3VmlzaXRzEgR0cnVlMhMKC1plcm9TdWdnZXN0EgR0cnVlSqABCilRdWVyeUJvdW5kYXJ5Q29udHJvbF9TdGFibGVfUjZfUG9zdHBlcmlvZBAKMhoKEkJvb2ttYXJrc0luZGV4VVJMcxIEdHJ1ZTIWChBIUVBCb29rbWFya1ZhbHVlEgIxMDIoCiBIUVBEaXNjb3VudEZyZWNlbmN5V2hlbkZld1Zpc2l0cxIEdHJ1ZTITCgtaZXJvU3VnZ2VzdBIEdHJ1ZUqjAQosUXVlcnlCb3VuZGFyeUV4cGVyaW1lbnRfU3RhYmxlX1I2X1Bvc3RwZXJpb2QQCjIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyKAogSFFQRGlzY291bnRGcmVjZW5jeVdoZW5GZXdWaXNpdHMSBHRydWUyEwoLWmVyb1N1Z2dlc3QSBHRydWVKfwoIVW51c2VkXzEQCjIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyKAogSFFQRGlzY291bnRGcmVjZW5jeVdoZW5GZXdWaXNpdHMSBHRydWUyEwoLWmVyb1N1Z2dlc3QSBHRydWVKqgEKM1N1Z2dlc3RGZWF0dXJlQWJsYXRpb25fU3RhYmxlX0NvbnRyb2xfUjJfUG9zdHBlcmlvZBAKMhoKEkJvb2ttYXJrc0luZGV4VVJMcxIEdHJ1ZTIWChBIUVBCb29rbWFya1ZhbHVlEgIxMDIoCiBIUVBEaXNjb3VudEZyZWNlbmN5V2hlbkZld1Zpc2l0cxIEdHJ1ZTITCgtaZXJvU3VnZ2VzdBIEdHJ1ZUp/CghVbnVzZWRfMhAKMhoKEkJvb2ttYXJrc0luZGV4VVJMcxIEdHJ1ZTIWChBIUVBCb29rbWFya1ZhbHVlEgIxMDIoCiBIUVBEaXNjb3VudEZyZWNlbmN5V2hlbkZld1Zpc2l0cxIEdHJ1ZTITCgtaZXJvU3VnZ2VzdBIEdHJ1ZUp/CghVbnVzZWRfMxAKMhoKEkJvb2ttYXJrc0luZGV4VVJMcxIEdHJ1ZTIWChBIUVBCb29rbWFya1ZhbHVlEgIxMDIoCiBIUVBEaXNjb3VudEZyZWNlbmN5V2hlbkZld1Zpc2l0cxIEdHJ1ZTITCgtaZXJvU3VnZ2VzdBIEdHJ1ZUqtAQo2U3VnZ2VzdEZlYXR1cmVBYmxhdGlvbl9TdGFibGVfRXhwZXJpbWVudF9SMl9Qb3N0cGVyaW9kEAoyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMigKIEhRUERpc2NvdW50RnJlY2VuY3lXaGVuRmV3VmlzaXRzEgR0cnVlMhMKC1plcm9TdWdnZXN0EgR0cnVlSpwBChtOZXdTdWdnZXN0VHlwZV9BNV9TdGFibGVfUjIQChiwlMoBILCUygEyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMigKIEhRUERpc2NvdW50RnJlY2VuY3lXaGVuRmV3VmlzaXRzEgR0cnVlMhMKC1plcm9TdWdnZXN0EgR0cnVlSpwBChtOZXdTdWdnZXN0VHlwZV9BNl9TdGFibGVfUjIQChixlMoBILGUygEyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMigKIEhRUERpc2NvdW50RnJlY2VuY3lXaGVuRmV3VmlzaXRzEgR0cnVlMhMKC1plcm9TdWdnZXN0EgR0cnVlSpwBChtOZXdTdWdnZXN0VHlwZV9BN19TdGFibGVfUjIQChiylMoBILKUygEyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMigKIEhRUERpc2NvdW50RnJlY2VuY3lXaGVuRmV3VmlzaXRzEgR0cnVlMhMKC1plcm9TdWdnZXN0EgR0cnVlSpwBChtOZXdTdWdnZXN0VHlwZV9BOF9TdGFibGVfUjIQChizlMoBILOUygEyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMigKIEhRUERpc2NvdW50RnJlY2VuY3lXaGVuRmV3VmlzaXRzEgR0cnVlMhMKC1plcm9TdWdnZXN0EgR0cnVlSpwBChtOZXdTdWdnZXN0VHlwZV9BOV9TdGFibGVfUjIQChi0lMoBILSUygEyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMigKIEhRUERpc2NvdW50RnJlY2VuY3lXaGVuRmV3VmlzaXRzEgR0cnVlMhMKC1plcm9TdWdnZXN0EgR0cnVlSp0BChxOZXdTdWdnZXN0VHlwZV9BMTBfU3RhYmxlX1IyEAoYtZTKASC1lMoBMhoKEkJvb2ttYXJrc0luZGV4VVJMcxIEdHJ1ZTIWChBIUVBCb29rbWFya1ZhbHVlEgIxMDIoCiBIUVBEaXNjb3VudEZyZWNlbmN5V2hlbkZld1Zpc2l0cxIEdHJ1ZTITCgtaZXJvU3VnZ2VzdBIEdHJ1ZUqZAQoYU3RhYmxlQm9va21hcmtzSW5kZXhVUkxzEDIY0pTKASDSlMoBMhoKEkJvb2ttYXJrc0luZGV4VVJMcxIEdHJ1ZTIWChBIUVBCb29rbWFya1ZhbHVlEgIxMDIoCiBIUVBEaXNjb3VudEZyZWNlbmN5V2hlbkZld1Zpc2l0cxIEdHJ1ZTITCgtaZXJvU3VnZ2VzdBIEdHJ1ZUqmAQolUHJlcGVyaW9kX0EyX1N0YWJsZUJvb2ttYXJrc0luZGV4VVJMcxAyGMOUygEgw5TKATIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyKAogSFFQRGlzY291bnRGcmVjZW5jeVdoZW5GZXdWaXNpdHMSBHRydWUyEwoLWmVyb1N1Z2dlc3QSBHRydWVKhAEKH1N0YWJsZUJvb2ttYXJrc0luZGV4VVJMc0NvbnRyb2wQMhjRlMoBINGUygEyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyKAogSFFQRGlzY291bnRGcmVjZW5jeVdoZW5GZXdWaXNpdHMSBHRydWUyEwoLWmVyb1N1Z2dlc3QSBHRydWVKpgEKJVByZXBlcmlvZF9BNF9TdGFibGVCb29rbWFya3NJbmRleFVSTHMQMhjFlMoBIMWUygEyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMigKIEhRUERpc2NvdW50RnJlY2VuY3lXaGVuRmV3VmlzaXRzEgR0cnVlMhMKC1plcm9TdWdnZXN0EgR0cnVlSn8KCFVudXNlZF80EAoyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMigKIEhRUERpc2NvdW50RnJlY2VuY3lXaGVuRmV3VmlzaXRzEgR0cnVlMhMKC1plcm9TdWdnZXN0EgR0cnVlSp0BChxQUF9FdGhlcnN1Z2dlc3RfQTFfU3RhYmxlX1I4EAoY35TKASDflMoBMhoKEkJvb2ttYXJrc0luZGV4VVJMcxIEdHJ1ZTIWChBIUVBCb29rbWFya1ZhbHVlEgIxMDIoCiBIUVBEaXNjb3VudEZyZWNlbmN5V2hlbkZld1Zpc2l0cxIEdHJ1ZTITCgtaZXJvU3VnZ2VzdBIEdHJ1ZUqdAQocUFBfRXRoZXJzdWdnZXN0X0EyX1N0YWJsZV9SOBAKGOCUygEg4JTKATIaChJCb29rbWFya3NJbmRleFVSTHMSBHRydWUyFgoQSFFQQm9va21hcmtWYWx1ZRICMTAyKAogSFFQRGlzY291bnRGcmVjZW5jeVdoZW5GZXdWaXNpdHMSBHRydWUyEwoLWmVyb1N1Z2dlc3QSBHRydWVKnQEKHFBQX0V0aGVyc3VnZ2VzdF9BM19TdGFibGVfUjgQChjhlMoBIOGUygEyGgoSQm9va21hcmtzSW5kZXhVUkxzEgR0cnVlMhYKEEhRUEJvb2ttYXJrVmFsdWUSAjEwMigKIEhRUERpc2NvdW50RnJlY2VuY3lXaGVuRmV3VmlzaXRzEgR0cnVlMhMKC1plcm9TdWdnZXN0EgR0cnVlSp0BChxQUF8?×÷D–†;+.\5´vPï4ß8Ò5ø‡Fkèn2÷—¢Qr)87–p¤Ëˆ4j]D3#C,u
+#Ï•[Àuéäœ£×YŽ¢æ3màèŒ­Â´¢7§›ÄÒô]v:Hr%!çRžGPnuòJÄ„ x’gÐäêrÍ*.E_ƒG‹eŠ¬¸áCäo·’>§Û"ˆ€6‘NÉÉ8»/EV±ì
+e¯ñÍñÌ`3%Ã“8ÅmUJéÞÜ,û
+°(‰Y	ÏX‚^½ìÎÅ–Ž %Ï‘î±*’“¢š·ZX–rJÅÍX/5{_õËaåé¶)\Á¡EËÚ–¦µ£yvÛêfRQN õ‡˜’öµÖªŸMFÑÀuÅ§¯ÞIÿÐ—×”w/^C"œÕsq„ÃŸg¹\L5ûâz-ÛGG·&Ã°7™ÞÆ›ŠìÚØßŸ3Ø<¦»[“3k‚nîåÃ|.WÕh C"Ã2†3Çr*‘] R0W½Ñ‡®’Cn¸î€ÈPêÎœ|4ŠËàÛ~|þr¡Š¬Ç—1ÆšPªL #ÿÄ”l¤ÁŒ]§a€äñ?‡´
+J¦$†‰«ôWÛ0K÷•ùöm=ƒ0¨ÔÔŽY	ì«ÇhH+¶Ø®‘3-Þò£îŒ5E£Êw^õBLúuÏ?Ü²éûŠÏØ…È¤Ä%‚5äž,‰E6Ñ:£…¯‹Ñ,éá¢)ŸƒžØ*ë	Æ®Î]ÖÀUÈ#¬ÖÁÁÎ¯öä•*cÛjíÚâá4ÐcŠÍ‘{nG÷è,š7ý©ó÷-í7)¤~˜æ¹ÀÉa•öf¢Ô˜QUqpÕïzÂ*³qR!É=këÉê~bêc*e}ü3ŒjB—ƒÃr¬W/óºi‡¼~Oýà>9þ¸àâƒh™¶ÊM!ÈÞ™µ„8Z/—¿‚]H^Ê<ÔÃf†tÎí–Ù½mœ+‚ÊÜD4áÔÃu*;ËXŒE©ÃO÷?>ÇÒ¥RTxý?•f*˜¬t„n}ÉãîHr!Ñ‹ÿþ?æ;HL=ÅT­cÕÈZ2áæ¥ž	.Ò’˜ô¯­Õª	šNu”gÑÅžK9Œë¥6ÓZžŒÜ©WW-VŸ¾wÌDsåÃ*‹`Ì/:
+“ç²_PÊà.ÝÝz;:€}¢ž1`À¶ä©Õ–O*§ÿœÑ~Ûï\íù"	ð}Ë€iëÜ˜vî8:¾¨åÈ.ÊX†ýS®ÒGÍª~Äº“©i1¢fîð(ú@0ô€jt—Ü~ý”ïTH×suŽÂ\­œ7“óóWôýÀÆ‚`¡øke`òUÅâ³Æ~ç—˜òB˜ÖJ9k; )ËÄ?çq"É& õ$h‰>©õ”‹FùqžÑ8u¯¼Xfâæämou²¡¾7BM#¯2ÙŽùÃQ6ú]‰pÆæåÈIüI[Ç_VÍ}¤•¬Xv@e¬+	GüQï`}·¾£ìn)éSÞžU…4
+‹†]ðŠ¶Ž¨ò2³o	ÛÅöüŽ¦p² #8Ûö$°Vü›ÒºÃQì 6e ÇÃ¹#Ea"xS4CÕå(Âhç@#Ì¾Ö¥¢Qé†´^à; Q¶Rï(YI4û¨¿ªmL
+\P”Ë;ý¿ŸÍœT1%Æá°œ:êž:â~<£­ª%I.Øºˆ¢6Q-0:nÐ\Uã.vþøkw7	óý§ó…r=1EçÐ_.­aÎ3b3+(µ™j9¤—NšÚõÜZ•õ<Ë ¯|×¯7a¬œˆ îûåÅÖ¶Ñ—ÁÈ“§ìB1@‡Ý²Á—_§áÀíá€
+Tg<õþ|ã´Õ£býÿñ?cS6Ù‘jaÊWz*WÖò‡Ox€Ë)•X´HÂ‘ÿÏê§ò—‡-ž°í¤ÅJÚªÊÀ‹ƒQódaFH ,•IIÞ‰aC¬
+Ì/´<ëTDìwãÌ˜0¸O®
+¼6!ÏîzlQ”ª&r¢ØçûÍÖ´É(æ?Å«†’ªœ&@Ÿæª7Ch ƒ^/Á‹Ô&I©åÆó8Rû3ï¤àp8|"Ñ®IçPÛŒ&[Õ;Õî±¤@‚Œ'nGcíNixÏÚû9ï˜³˜ÃåÅ…FI)ê		üiN$h)î\ñ7ØÔ'xž}?˜óÍÆ†hñ[ó¢õË>eW[]B’B;ªùD¡Â8y®>Š
+ìg‹Æ
+*œ‚'7T0,Ò 8nÆ{$*°Ï"äÛX®jé&5pÕàÓ²ƒ¨LIä;±‚ÅSi)Ø¨²‹ÆR¢£Ë7(ŽÜŽL7Çv…~zF“¬	FÔ DIü¡Ÿ¯¡–ææaÀ$ÕšêËíOk#—7×SŽOâm•-r#x—	”×Šá	+ÅÃ„?½6mŒ1 Ç¾ÖuÌÜ¨¤“LðªV¤·²ðæ&ˆå¿%¢ÏÃ¿V+‚?"Ó`ÒNIò˜öÞ†Ã÷è&õÆöÂLPèÀº±lÆ‰® ÷"J? ÊÊîMÚ0ari»W’9LDLpID˜û®nJ'7Ù•‚E.Ü v¯’aäæ ÛQ8ý9&
+£Ÿè‹·i»nëŒÇz‡2!ô:¼˜°ú¹I¤ð¨)ÛTýÑŒ©YSgvB} ¢XwLŒ?ˆ.ÿÇ‘±Ë^nÆ;}×'èfp’t¬7»Öo‘Æ*¾)êp.póÒÐmz
+5'“}Õ‰kf¤6TãÞ†îJƒSˆ%ùI ÕwŒ/Öô"PÖXH¥™áyÛî„ùâ­=ÔIYÓ•[_ÇüW¹aš’f«sðÒá•£‹†š}£gNe`‰Ú†¼õCéÑ(}S¾oV ,é=1ÃH¿óý”µÝºkãÛù3ŒEé!É_J¾ðe>>Œác@ÈŸþç~ú¨üð,ZïãYUÀq-ï~³yÒëeÉ»ê‹¾˜ç»õ|*63utzÐ!Zõ8ìb YaéËbÄUk{ÃŠj ª·œXí¸j^o|^ðGÿV¯x‰M½ùä<±g²J¢Ðdj2»ø9E†å–ÕÉ¥dõÄ(=§ô÷7ÕOtˆ;lþL’Æ Œ¯ÂâyÕ6#åo:c@05F6lÁØu?êãê#>V–Â—ûIÙsŒãÚîQSž‚8ó,ËŠ6¦‘°þ[¶Ô¬Ü·¾r!ÐYÚ³$Xk|ôŸV‚±I"™ä%°®·{´Ð_6zàÒrkÙSÚèc+œNÑðÐœˆÿÜ£(“è~©˜ƒe«
+]Úcªs<|÷L%½`¶"gÈ+-¢V•±dÎö’Î¹;™ 4}• Ž4¬ù"ŠE!ªL¦¨+¶Ÿ¡²³ÇÜF§Õæ#@0ã†kMÐæç²«Œà#·X¢˜«g,bi”ýŽúDNÌø±’fóàqO@ïÃóÐ¬p³ž$®•p6¸ÂøëPÛÈÖ„Ï9æ‡á…Á®çR7JlBô8ë§)Ußc÷_¤Ë’Ü.Š{Ï2ä¸’ýÎÿbW%6Âÿø¿¡ŸtûýsþóH¼²èˆu+Ù¨wGC#Œñ™®%I\RÅDjU©¯pŽÑZÆ”¤Ô3cq9„®é÷fn>„\Å•¾:;¬/ÓûSÓLƒîy±=µÅL>¬aÏ´Rd?!@Þ²t¹é:z³ÿe@O°?²ƒ2Kþ"w"ÆwÙ5~øLëò¼>ìÕc_÷ÆíþÔ?ô'j‚xòÕÁ0;ü¡þÑÃÙ¤J	ÕÃxîŽl;ãLöÎ²¸FÅ"Ï‘UNƒCárZ£]ãÆÓÿ¥öÔš,%·$qÝÝf„<Ÿ÷¯^JâuH­"¥GÀÕ©vD‹ßµ#$šü¨ðñTŒ>a¶DÃŽ%·-è0ÇK¶wñvâ/[2Ïš³RuAþA½1½†¯Ö¡gïù9Ê½ámÃT1ÖŸ™Ttªã¾.¨Ü£«ÙóX€¯iÄoC©Â¼¡ª>ÄøH•J¨äÀ²n‰$±Ò¬NKFŸúË+•]D=Öñ˜`g·P8‘´Í8Ô‚â!‡RäðWUj|Z~¾ o»UùœÍ;Íwx“¿³&Ö6F\•QÏEvâ=›¸G]&ÖË©¤ÒC IŸc
+-ŽÍjÖðTô%UÊ–¨+ìË¥iáI†’Üjš€z¨”†G…ŸxÙ¶w`‡½UàÂrjm=íóDÜhÿ4mîyo:]·Ÿ‚€º>°ð5b›ªDXŠ3j%GmXõ}ydŽ}8¡s§®–ÿÚþr’e{F%OØÀü\DÈKÃÛ¶ëQwPŠHßóúúP×<÷n,Y=Ò#Qý!)ü²’æ¯Ü-uj²9~Þ<œ…ÅÈÄü#4Ùüc†u\Ê‹J¨Z'ƒ=ÂÖŸX±2Þè.¢Ç÷0W]"¤›)»tÃmèÎtŽcóé­p@Ÿ<tXä@½Po_zåÝnF…:ß‹pÍ
+ÈSü`ë_Ì(—J¾Ko›ë!cþHˆƒè\œX¯E9Z?v@°ý¼ ¬;²˜‚{ï²osE¡~µ…™fÔuw÷óë‘ïúrŽ•Vf´½?~°ç†ŽÒ­öÃ]`'ï¾3„Èöþ|÷S¢¸9hÚ&¯Â
+ˆØ'Ù–=OU>ø{@²_So®"ù9•'	hê¯±AaGÅÃÀæËŽ¸WC2NLV 9ÁÊðúÕº?çP´‹ï¬¡¯,ÁŒÈÃôBc¯9â«…ÖŠ{"@0â1Ó@wGmÃå8}­!•V@®[Z‹ƒ»$ëÜa ¼*û(UI2‰?>£Nçü#b°=‘@‰¬¾Õ¬ã„Üœ²Gßµ¤å†yºäÂ?ž×EH—–´ð² R†ô.”ÔR¼{!G4ôVó„£mÜÞÖ”Eb)ú	0¸9ôs Í6o¹6Šm‚+r±bXíæQµùµ·”0­ÂâýBñúÆúUû¶þr,Ê½aŒ·EkðÆ9mäà©f7âØD)
+£Á8×yë›f‡[ÃRa¹È[B³ÎövåS©‰·:¾¯ýmrRf4,"íX¥Àb³!V*q£sÜ	rtp®[=`}|=4
+ù_{¡">Ï	kC †6ÓGÄBbéV_Ù°ŒÊmS4 1c·rU†óŸšJyI+TjæþmóáIIcîã†ü„&
+­t¶\«5¾ôŠFþ…÷UÒG™Õª©ŠÃ=Tnïp;Ç,Ž±Âl&~½Ê»º>E*èd/¾º½mÍeçÙÍœ$áw­5|ÙáÊç•˜Wg0×‡Ñ¨Àu¬^';"T¼ªžßHs¦â­ÌV¯YKV¦2\Iÿ£4±³:Ñ5Ó½Äw‡ÝÒÂ*Ü‡ùÈ:ŽVèÎìunó"âˆ13¨|Uo~ÄÄ…y•å‘Ú†
+wV¤¿	‘"©y;d0vÉy-å¼ t‚TGJS˜Kñ§Ø	ö·yKµ_³ÃUÿdÃ#¦ ²‰ !.1ÉíÊc+6²IÍå‡Gx¢C1ïµYøÙy'©FpªÚ„ D4V%ñÎ’óé÷úÀjq¨Æ×òiB¯ªLvŠ¨K_éŸªn»õ‡˜N ¢
+Äfqîh†y'‘â[#ªÉýµgó%Aä
+©Ñ5bð5šñè‚	í}f”+él!;Kèó8µ$ÃSy±ôó„—'×«òèOÂhàX%á›ÐV¦pzA+8Æp…!üSÈ .$Ú@¸…êâùëu
+•eŠ`Ïçkä„;¨_éXGµ¥ƒ™ø¨8yÞyßõõ.q_É‘„Ïõyò¹"qÍµDñö {emØ€|Ô80Ü#ýšæáƒ÷{D,Îœðú[ÜcmuIºö(«Ä2úVbÜ)¹ÊÓÑ}!ê5„QÅõAòÒª²Ú#¸·‚ˆ7ðE¬¼›^˜ÅÄèµ¦ß&¾o–£
+¦§“HYf›. ÔTMygyÜEÉ²ç}?”š÷Iuìî´YÓñÆN¡Ù3fT\‰Ü=êµ¨Þ´SÏ>óÌ8 ‡'äÄ§ž^“óXa’D-w²Tö*=Ô¬cý.r‘vXØÖ10±ê¾1Õ”¤b¶•H¥9	‹±ÙçJw‡.uâ)ßqz´$=î”S±+Ø–ÀÄóQ˜”š ›È¢;ÿ?sj!¿ý,õŠäãEÉÓ3oCá?¼«RdJ<±M*c)(H‚½„X'8ÀuÒø£ª”ì™9nª^çG®ôH†üž~ÙÂ·8ønÌ¼Ç¬Ìi—h*>C±(m>I1†
+3Ù´ç¼Ð©PìÇ˜È¥*ò`eù‰½Òc¡¬ š{ ¢Yoz
+=˜:Fß«¢MÃmg1«¶kZYS<\ÿ)òà²­2CXK'‹+ÃöåMI9¨ÍxëBÒÆX6Czñ×ØGW½ÅÀpÓò[¹ÂlÿÔFEoY+ºô»‹°erÔzØˆ£`Ö á`¹¦c¹ý^9Ç£.,Œ¥2
+Wfô³JŠ4U|È8Ð6q!“‹5ÈÁ<ãýJ©bÐ;}Ü­J!![ƒ…»Ï·EPØ`‹ëè8i)¿Ùå_†›â2©ð›zjq¥üß·sÔHøå!¢ÚéP}é«i¤'åêÀ4ŽñÁ@£GAÛkP¢Gúg”vG)­qÖ‹5®6©È@ÜMÆ Piñ1~-?´ÞRÚó6Ÿ1 ®È•«Ï@µ}¸}­mYÖÁ¸D°ß¸¾ì(€Ôª¡C•úØ>…¬¦#UZžÝm_'}0„|Ú¤jL†H„0¶`“—Yª¹ÒC|?(HÅÁ4/èa²¢ý©l¬…€¹|=z}ÌŒßB#Ú˜¼¦ÕvÃuzN«®\Û‘kiGaD¨ü¼`0‚â„'»÷àGŸ3æEÙiJõóCeÀñºÉ\)ts4l¦zÝßy‹\§Ò¬¸ò\ÝÖÛå(zÜü­ý~ƒÍ=u<ÅÞ=aÍå¡5ïÿoûú‚OÄ €—ú3‡a&:´Î2"J2drÁ_Å—1>n‡.ò±¿¦å9;;;|	éÐ° åõs…*’œ•÷§…³ˆI*GÚJäâÁ ºäiQwA2rm|÷(Lu…l¶ÛêRª™Eékvt„þê`|#RJ$<°$«§Ð°s-Z>·QL˜ŒY›é‡pU¯øŠêþ%ÿû\MÙo^+èê]‘ƒ@‡­âhONð21û¦Ø6njžÒPD!°ÙÊe Œðôn–›dU•ßö!þvfX¹^&´ £^ôÈÅ¥ÑòœH`éDj<DH' ŸžüJÚK×DÂ¨Y)d¼›ÖýmÅú.äQÖÎ‰[õpdÛb¦7ÉÄÑ–nÍE–5^™Ü¤-#ÕÏ” ¼@e4’ÇÂ¬oe	¤¥Ã!¹ðœ
+Åá¡Ñ‰ÊP:
+Ê’æMt§¦KÝ÷š}T>†gŠ2Ù©u´Ãî>7L‘kaLâúò™»c½µßû'Í~ëGˆò'0°¾\’=¾V²ÕXs‰G­ÙÙ´ìo’ð^TLk}¶:.$2Ð€=º«$CÔ‹I6ª]l`öv}÷½T
+2Ëç‡Æ©“´lfÊ;µ™†üá?nL¡À_*­èã‚–QŒ‹·˜Â3IoP9I:–a‡kpGÿÀƒ^%ƒd9ºaÚ
+N·.DžnŒ±W±+„[ù~Xâe²[2ÓFAbMýÚ[hÑÀ{¦œè­µëõ¥{zk§A¥éK
+Ë.ûÝ‡'xvnªËÈ°ñ×óÆŽ°/ò;E(ÆÌ:ìóº‹Ñ$¤“-Æ˜u‰p›\ëiY¢Þf„C.‚œSöM~_³×Í«	V ÇÕªÅ^ü;kbà0£ 2\3`üq¥ºÁOf–GàüF­Fï*lBêbñ[‹OlEQ@áÞŒðFù~b“´@.hü_ó‡o|i*‡ï1ÇäÔÁñQè™6X"€6•ˆ©à8~Dqp4¢,BT)Ì )]éõ¸†FÐ¸ò¢º§¦CBZ€Eâ¹Ü¦Ÿôxœ&ëï)Ü¤õ„ 6$ÞKX¤\‡ôìÙ/©x÷ƒä~‹bu°Ÿ7LhÉç…æFp›Ðö FCˆ<(Ü+‰òžöÿ‡Â‡ºŸg¼¯)½eÊ&g‰¿W­Û)u±ÀÐµ!ÌBNyÊH"lòûc2¦ÃŸÏ+®Çê>ö"V”iaÉø¸(^Þ\üE=S’ß.ðSŽV=H"éûª½÷µßÊ«M¤êM`àtqz˜Lè0¿{ˆù:›Ÿùr*£å‘()  ÎYÚÀ>øÖ‡Ô£m/|Ž‡†Ã¥®g©bÐz	®å¬ÐZ;p÷¬É˜è:·+O¨¥GŒGyeDÞ‰øéŸ‰ÜTä#B×»?AsL
+ÿÔÉÐÜ“ÿÿ=ÕÕ¼jªˆy=ƒ0B hÁxG”XåZ´Ú;ž<Ú–eÍ(^hé–R/×úŽëË>å£A¨R©ªQ³`†x~a›`¾mk¯‚%ëÓx¡%ììt–_ÃFDaD4¼­˜¾WÊ(Õ&³½¢au?	œY¯´m%âí3.	1o(ÔYg´¤o©Hr¹ó‰]9d/Ök¸vïFY†%dŽzÏ0Ô
+¼‹µGþ¾yWM™þäÜA[Xà
+Šmd2m¬Ž4M¾Íœ~g¶Øœ\erGp»ûÍhe¬BÊ¹N! 8+;¿ý,VÓBéA?	—æd}Úè‘ØŠ2`˜YÖIZ­âÄëô‹¥Ë¨ÊŸwß„Ÿæsž fYÉ4×ÙJÒeeË8fÔ˜
+U{ ã2¼â™°JT=® Ô­:ägˆ•kc‘Â‹Z:ŠEÓf­ó_™I¶sp®F&
+©¨$«áµ…nMÜX<dóî†[ÖñžqŠ–5õÍè‘fw³Ô‰ûF©e…N¬Oˆ•û÷ö|„íÚJð»Ïš¿óeËâ{lôËn¯¯‘ärMpO¤´~‚oíÑNôà.
+ùâ·†…Äe)Á‡¿·%p®#+ewE»´ËilCïBÜ¿Šc†?x¬½qJ«öúø‚IÿÕmê¥«¬ßOµÁÙÓ·UÿÍM''OêâSªˆ€îL”„?,™¾ÂÕn¯ÁGtÍÂ—"ðÁrŠPM…fA¬¢;ËàlYÔÏŒø¿þí1‘¼YÉôž_/öSA³ó Q˜ù|Þˆ€tšß9îõ¨ò9zj|µ²UYq6¯ºõ2F7sÏÍÃDx5ÃNu¡R¯† V[™X"ci­þ2¦[þÁ6(Ã´Kx˜ê4%~g2Ü„cí[a á*n¿´¢ü½p®[-ð$äWÞEUÀ Î`r_Ò/Èƒ;HA.E°ÅÝL×tûí«-žDŽ´Fèûòc—Vf®¯%|ñ—N.±•G§cÝ]Áˆý[Î¶€Oç%º±_µÙ=Ë9ŽŽ	™…äCOÛäHûIÔPÜ’žùþ‹¨õ»]e²çëu¶ìF`¼IˆÖzÖèEÃuþó¼#›²bóÅöÌjƒD1í%¨ôEÒŒÆÀïj_cD-<·6°•¡ç]¤bÛÙðóÎ8`ªÞ%GÕ èìqÈgý¸Oí‘\F§î4I9Â¶žÜ‡ôÇ™^.
+¸ÈÈñéf%âˆó¶·Ç¢†v<úƒ—ýrlì'¢U3FU\ygU-xOüüÊK$8çá¾ÏÄ†ÂaÿJy]ÌGDº#eqÓ“.~éFéåÄø*kPŸê¦Å::V5FD¤eJ0ö›ŸüP!ýÂk›ª×„2RÙœá-Ðå_>- I‘þïÕœ†æº0“„UÚ·Âª¾þÎ“^fEûB›ÿ”©8w*ÃæÄþj}_¯°&w-
+Øâï×(ZàëRøqFÄßBÁô#VŸûá”l:·€ûDªBf·$õïõüŸãëŸ}_$ã{ÁF˜©f#°g£š3$å­QjbPò!Õªdâ}UÏËÚ>‡8Ô3_rö¯ `w¤Ž:r:Ž”æ<€œOÒô*÷ÓµŸð©Gø›%à¹«^õÜ;=™ú«t¦s²ës>äSßïŸ="hM~ 3CûôXáCo:rneÿ¨ÿÔºm™bSZ(0lJS'®ö_Ÿuš¬Î¡Ì°æƒK{>‘‘ÇR”§caLÁèÕˆsìEŸÛsÊÔÏN<ë…IÜ,š3)Nâ¡IëÞK–SŠŒê¾ŸÂïµËÁÓ+‹É·†òÞGw_ÛëL„¬©}¥ýÊàþ<_kõÖÌ0>—*”ÕèP>˜j.CNb˜ o<Vw¶‡À–¸…T}#¼.k­N•Û V’àÕN’jo ü!OÞyèÙ£gb—Ä!í7VÚÜ\èRQ(™Œý88Ûp¡ª“dJ
+'g?Éþ„á:”Ý—ª}( ^­Ä˜«Ítí*¢C-qL÷òÒ,1³ÂvŠ`Ýå_Î*þiÒŒÃyºÚìˆW/äÅâ"qu€´Q:ãª.Í2n`ðÀòO:Q;¨ï\z©ï£ 4áà³•Íås&swÄ¨•ðÿì{¿7ŒÝ~ê^ë«õ4$æ!±»®>×GƒÍ,Áþ²Y›eešÌÀdëÀÁJ,/õHkáô87¿$›*É‘©ÕÑÓÉÐdD‡üPB±-±nM|Ž¦;|¾S°ÔØk1®øü“z´À³Ó©ØW 9x%ŽqÉm“W˜ë¯ù]£?Ó…fª€¾íÂ¼P‡"í®j°þÎÎ‹·„Ž›à5Æ#ÅïÒh;Qf±Knê¥[Áè¸ÊJNahMNts¡MÎò­<ti4mi¬(uË9ãZðËín¥&\¯·zYG…,d£Ÿ˜pŒmÓñ2}p62%záEÊ¼¨ÿÓ³Ÿ»œTBGKÆ>7[uà{cªÄz5 ÿ…;­À­yq©^"IÐ:žÏÏÀú5-¤½…Bîðä@$»ÐhfdÐKéIŠ•õôCºót	FÚï}ñëE_;Íœ­•¶¯4M˜þv&×ËÛÒ¥#‹ +*Ç¨^¾nlnXí½©P yójnæ	1çà´4|y-Cû`£o'ª‚Wº’”&éÍ1îÿ0w¯b"‘(Øs”V‹ñkö¾¿AÓRègf¸j¿ÌáØ</Ä¬>©WÀÉ¤ûºAó¿í†àFŸÚ\Î¨ù†Zæ¢ÂT=‘Ÿ·Í3ÜïÑoŸÍ´Ë(¢Àg+Òj
+_@wzÝ9„ÛÚ™ÑÔl®¼I£|÷³•¨©æén@PQò5;˜&Ú–BÍŽˆ¦@–5ÖâmVR>7fÝr=X(VÅzN2r¥ap`FÜt2xË$NKHÈf¬öïnãŸ®Ž³w&TÚLJÒçf®~¼¿ÇßHiÈÉñrQ8@‹©9<x¸Wf¼”)€˜ðkKh±zÙÆ|4AÒÝP¡ç£çËšãþ“_Q—èlñ˜{lO•}­ØÍ Šs$œ	8ƒ+{¸&Ž´5æÿÑÁŽ¬uçzšìW>•ì€¢¬ êvŸÖ~b½{‚Êžrý¼g þ¢4·ß"¢äŽ&ÑA7dx£Ù"¶¨ÑÒ§/4DL‘	yo¨¦ýBÆû‚]…1«@19Î«ûˆ.Ð!ùði¶}6«›ì=ê%“–ìºÎ$¨Q…°i˜xS™$øù¿·wˆ(-ˆàâ%8'Ñ#ö4`¯5L=Tuo >Xík†09sŽ)ŽªFNb0ìYUºÀ$•Ö×u4ËôHÀC½µ¶Åë0ÜjòE¦¤Ê‚,¥‰ýƒ™ºr¤þ|&%ù«A›72ggØŠŠÑeÒÍ8º´^ú•õv¦­!t îØª|HZNPzÌÍb½X( †O4¶*Û3JH™ó™V~Áèœ¶Ÿw‰‡·F •CNs|˜ÃõaÊ™)§£Z÷zóÍ›/Rº`}_é%€¼¡¬ÎB“+w‡‚ìÝÃŠÏƒ({/é©Ñ)bø‚ìxŒõ~úKÃª®SJ‚ñµ €fh Yc
+îy@Â˜ÔÂïÉŠ>¹ XÁ<
+Ë=é¨ÖnÛcs±‹û_®¿‚ü.hfUÝA1j­ÇªÜ]RÓÓ¡K»TTó—>)v…eo–ÜxëEÛ*L-ÑDa®îAz¥-ØH^O06ËV{C.q!)ö12è(¼w´Àd*ªâì.J”¢=®¹âBHÜVÓnO–?ü%N» ¬ô¹<«SéÉrBó¨¢,Ó7¹€‰ç“H>~d ½µ!×S¼IP;ÂÐ_÷EþeO¢H¹œk=ùk3¼ÚXGmVrÊýo·	&”XóQÔ£¹œ}4ŒüjOnš™NÈË?w’°~´›©„¼—O#4„ÄÌ1iç˜ç._¿Kž”aŸ¡%8¸?Ç×8ÁÄžLÂsMƒ¬ÿÝ§…‘´â,Üª¢ïáÀp‹ÊeAö€x€SmwÆÜþJË@ 'fùç£dtäŸsˆÈH‘ëí†’‰µ˜TÏÞ.ÆVhQ*jCô¡nº`Œ×VÉ¨£ÌS™°Ùøýi³±Æ¾uW¦²~ûø}¦ÊYv÷’=â%Â
+»¼3VCwëÙlŠ,RÕ–Î(6[•=Ñ¬‰‰SåÄLcáÜÒÞROS Lþžó0„Ó?`î3T7VöêWäêKÍbob»jÐ>çF.ÛÃ/ÜçKvâ“”2ÖÍØj#®Ò5~øhŠ·™ÿ)Ó<ƒ©0a+[¹Ï›ùLž>?ª9Ü7,Ž¼Éé/ìwpò_]ÃºˆôEÌ˜
+iÌ“ý¶cj½ê(9[¹q0 ¶º†g¹—YÓçŽ2{Ðâ…çÍ&s•Šuò.'eí÷Ê˜#?Þ÷Sé?«!sO¹?¡™P¸¦žªÌ~¬¬xÛ\—L¦>{-^·ýlÊ…¡–#u.²ydè¤_›zò¤ƒÈÚjbNcÛPNÊ;öJÏ»¡Ú/FzÐR7ÉÒ%vÜ<èìBÎ?é°ˆ3Ýc.òØ³…©Û Ÿ€g¸.°.Ômc(s…öó§³Nò·Ÿ°µ“…NÔiùŽBy¾_¨4ø|ƒ,?g›¡{s&¼!–9z\„ñFûÜpyæsÿrâf“ðQ&–™XÝ
+ÌªSÇ×uI
+¤¾Ù„=ŒeÿÊÈ7É©8OD†ëÔ­íA+¼/Q–Wý]Òr¶|ïÄ¬wª”c¦ý }l;±uk€‰Ýü—òz0µEÖYV+=Ý‚V‹6½FnÌÈd
+ŠìW—KU“¾–¾gKa9p{YÖSJüv¶jg©R‡wbfFVÝKéC&ææÆ9ÏÓÀ¡äJ H©±ß´),2LI0Öõ°ßhVZ7L$ç8àÎ¡á•ßæÓ|Jú•×§GÄ‚ìRÇ„^ž¼ã/·@+êG\¶ðL2èÕom•Ð‚¤p$÷--¸²ñ˜ë§¬Õ™?ð}õ#‚m'»
+è®kÎ›˜Æ ÙmiÛ\À™ÎFœÉûÏ½92…ÚQŸ<7¼ý˜!Ç<ÈëH†!ènHZOlM´»+ó ×ý¯]Z»–v:³¦Æ^¢ÞÐÀ?ìmÅVî…áŠõ2í¢£öÀ¥^T~D…•y‚rBÑý‚;Ûõ\_l{ß…„ˆdÓ¾A…±a.˜B¨rub±Ø>ÜÖê“¶7u~="Þ‚øXèÞB¼jòÚŽ›™Ž7ûaŠ=uµ6qyÝoÖcµKAŸ—Ÿ„Í›5YòïRÄÌ-ƒˆSuKAV˜½)h¤âïyu`í«nlufÜ¿5Ô!ƒ[ 8”%p—k7r¤zéwPJ––`vfþ„ÅÉm;­«\9ïl)“Î@Ñ­ìêÝé¾€?êŸ¢M€¬(¬Ø3…máûBç¿bú¨ÈCÏöõˆC~'çàšãdnÂŠ$)mèâî§[ÂÔi(k ÷À®9ªA{pdœóöØtÉ>¨@ÙÐOAKGÛ§d»xScD=*Ô¦Ý™â³þ|ºDt¸ ½¤ä£6÷üÍÌû!þ³êX QÐÿJãc¬F•|ýÑ}×íandg[q4[”Í¹	£{«8’ÙZ~OÈ³JPTÌeãýó¤µà®ôeÌä£¿Û‰&ÍòAâNrA¯:éÍW¦®8†5tQú×Þdáw÷|”ÙŒ’ÞÏ›…U¥	#6:OPä)ðŽkx ù­âu2?
+GvÕ=ë£bË±`{µï>÷‘PåŠdñ•Ð#s\õ®_…Á¹_: ³|õÀ£,¿ªy–Sõ¶çy»CÛ4à6z!ü×ÑuÑÌúô.vòÎœ	·C$¨HÈ q»Ã!>6ô¨L2û¬5´‰Q‚Ó·7 þ c–ZN(dí°úÇÅ”U—b/Á#ˆv½ò¶E ·˜€‘Îä–Ê)‡à±êÎÓò¤ˆÊ=HS$nS;faÿ2÷ß¸:¥a´ƒ\
+P£.V„Z‚Qn†È§`ÂÉÑ£ ¯ìÛœ`Ø	¡ˆ#• Ónµ»øÖÒÚ`U+—ÇíÊ}"/#¶x[|Ö,Ž0[`|Œ¬ú]€Þæà­Í1•‰y‚m‚„Ð˜[­V2Aí*,ÐÛ—{fŒT‰9Ó
+©Ù?ÝÃ£G|´$ƒ{Öªƒ	ýpAÎ"»:Ÿ‡7à+œúãüF”Ü\8‰ŸX+8³HÓ[œ§ÁèIkGÛ§³"²Až·Æ+q¤ Egõæ‡iº*å	Á›ó‰qõbï*s¹Ï¹ìu_‚hŠäëjÔâ–s&÷’ á»uSþ“¹òõ+û¸¦ê8¸QÌ×ôí¡¼@$ÛztlÖÕˆ¸òmAØM÷\Ñ+JmÜ{?îè0
+IûD)ÒOKùy<²@˜nbhuq–|:ý`.öP‰*Wx]Í_ƒŸœ±`¯«5œ$å¾B„eòf»½ÛÞr¿ª(VÄ •¼ûôˆ.vØplÕ?—+Lt>0­&Æ+9°›Ü®=D²¤DE˜H­CÕ—i$"Nõî€þëB‡¨G{ž[¸/Žã¢9?â”±©9BTÒ}rs >r3ªÁu™tßÒÇw-q¿‰üú€~Ž—0F¥-Ê[t}/‡S‘ôtÀ•ú4IpXÝ<™µ¥P÷Ã35C—épmE…SbÚºˆMAX!­—é®1è%ÍSç«~”V²ê(×5î`ÁÌ¢Èå¯~Ki2X¥3hj1K_¾N$úà¯]Y4Që?éñt—š†8;Âfq+XÀ<Ö,ë˜°7HÂÎX–´á{ùq‹Ai¦ Wù $ËØOÔ¨†õ-Mhø”#ÇÃˆÏ1Z¸Vü¶ä¡Á ¤‡Úš©'r!=åÜ“‰ªJþ1]•ì"ìO8·KqUÃI.Ð-
+éÊ“Õoæfå²ò¶ÇËôK®«‹Yå	«ÊÀÌàS>ýÕ èeß]³5mdsŸW ^SC)À'›gœ“Ñ"à5‚†ìë^¥\N½>ÒÆoPè7­ìîm@ÕoâÎLê¸}ÿñ“Ö'»ošô_(-“¸á¿Tå‚s,p”]`l'pÉr+Hˆ§¹MF¿Ã“…tãG÷³Ïû{ŒÎîsÒ˜…þFŸ"Ýöô… ô¶|ŽÕZŽe$JêÈpÉ¢¼DKse/MÉŠve
+éÌ×†Lœ­Æp·×£!YP1+!¸I±›d'üªŒo%qßÅÐ¢À@¨£‡°OÙÇ˜$&ÁQ}Kû‡mª¯Õ8•0€±a,Jº€£Ý®› îcêö«˜DU¬æk`†­kqØ·¿¤B»žÂ"vJéÄí¢øËûÜ™J¬§^µ:ŸO›}¨ÇnšÏîqò5Õø	ëÐ5>áÝS›ó'_c pó/ýnMx,MeÑ©›ÿ¬9Z_ý¹dðN}¥ü¤6¥ÉZE‚¾.š "ž"£Ú7Bœ‡8É´dßB„éQÒÎ/UÀ[šRÐ5÷íÆ''‹ £={´f0d7Æt¦h/‰¢*{Ë('¯¨­ÅSã³Õ4×kgn(¯²qj=ÓåæâOYm5éþª»ùò‚35FªúdŽ3ôMËIm¡<Á?ËžžŸ]áý¥+/(O­h'óT# ð;¹øbï ëËüNØK“HÄ[Ú(âº\KT‘6‰MíÊ‹`géè`‚R€*aMQE£¤ð°ˆ"›eÐEŒûë1ÏÜjólq—².']«V~™\Žµ,©ÏÐ5¯¤\¨æcÐHàL¾ßÂ†ìàð…€ì¼ÖÆ¯×Û|„!6Ò¬ÅvSe§Åº•	¤Ç‚vS*îÅL¹iÉbµhWy¤‡„Ýk@,ßï‰!ªr®b3c7mÆ÷Q4‡ËŸûÐZ`Vµ"˜[é	æ.w_žGóŸwc4÷Ð>æÒéŒ€h–v€ŒÐ+õ_Ï¶Ú=>šS1–;ÂjôúÌÉd‚ÄÍ£íðKÉz-<`Â['lTlçaYf\>*œR#ô=Ï<øÿ•¤å_SßKÐžÐtwíEŠôÞoKzÖš¶…—)Üï›Ækæw!£/£TJµ‘E"å”|Úº²ÎŸ2i´»8mH'ÆCÊx`+J§ç7hœbZÞ5€LÁåŒ-ƒÞüJtµÉRö{Rë¦!«%Zæu(µ™V1m±›
+Èé¥’ˆI“œ±?Î¤Hl X”dzA#ûjF¨zlìq­t)X}¶H-¬L¦GÿÄ|L (èã×[À)Më×ì»Œÿd€[«²äS¯E;3“‰–u§(0¹Í,“{ós÷‹*ñšyÓPUßa¹ÙÜŒÿóq
+Á+NÜúó34-„Ò#Øy¹´~?-â¿Ö§l…ÞÜà™t–c)ÇŽ÷[(~þ7c-˜ËúûFÊ±<ÉÁ‘Ü‚ei¡ÃÞaã*½­EÕ3¦sÉ”¬0/íËºÀz]L¾Óé˜df.åwÌ¤ŠäÛ»M+OÛPÈed:‚ÆÒ÷ d:>)(&§²•Ê†õTBë ±ð8u‚ŸÞ­ø^®B­¥`‘n¡š`êÙ¤&’m¦M.u † @–ñQB gdézÍãØü›}nâ–÷ZS‚\3
+Ÿ×ìïÇøÿGåùþ«BvLIñ?6cÿ7þñ~OÍ™¿Àÿœü?£ô~ó¼üÝ»¸Ÿ¯öþ¿³¼èÿ×^í÷Ö¾}ÝÞò»p½GxSÇÁ×/    %#
+aÐ¹®åŠ@B|åï‘ÃÊ:Gõ…S_Qr—vÂ»bÍ@#OáJE4Ù«ç›ßewd Î}†+h©mÍ·c#ÌÚ¬jGâ ôsìâ7 ª_€ò°,°	•D2×oÝ¿7qgi$$«ñ'il</0»	kØŸ0€d ­“Þ~<*»šˆ
+Ë¸j ¹dÁ“U|… ¹ôƒ8óù°±-SÄ‡¤…MºÂÆ²æhÞx•ešÜËV1ØÜn1§Öl=ë¦,'Ëwki9&Ø¹þ7Ð yk;$Î_PJÏBsùår*T¡Ÿ%k›’'|)ÌÇhr'±‡ïÕÖµiXã!zÒ­CÀ9 £h±]J/(–rp²¤ÒMD~X¾—âU¶_¿¶÷qÝc±ÉŸ“MaûúÒ5€QüÓJY›Ô÷†ž#é&KßAæ·p÷\lÖœþ$ŽÞNà¼5°¥VÉ„b½Úó"1§§rW™úPÈÀ–+T/"`­P°yµY­úÓŠÒ˜âgkŽZMq(_×þÜÊ@Øxa"¢„|y˜ME¾—ÀôG€^‹Ï{53î•·i«Ïº:¶³âæìoi.æd4oÆŽ½¹yƒqœ†nºìtäÒÈèJç?kÔjôêFl§Z[1&"ÖàlÛFƒ¦?éFj_dxkŸÜ-„0÷UúâY¾Æ	EÝM)'bµ\¯¯°ƒEYÛž3ôçm™•)¦ˆò5XôÓÉÉ96ˆx-šÆJmž4ð®ï²o}ŸX×Y#¹ µ'²R·{yaBœô9{û·˜¾îz>¶i¹¿ÇÖ•Žk÷,).ÚöH©+r^@âlJâššá¨»›<¸r™‘nŠ*ä1Tä¯Êi%ÆdØkÆÕ¬˜Ãì×~]ëþŒð„}Œæhe_cxPLØZrÛ–ìEé&.n%Dyñçb0ù…Aš1¥4!7}÷ƒê¼†.!±úÛÊ
+ Nî4¶¶9{é9ÔÄ8¤iæ|Ç”Ší<]Z	Ø4CÂäÇõÁ÷Œá´   m$[;1}ÊyƒÑš
+a ›I³ÒØçŠ}i¼™ªù³L™Îo½oKá&…U¦B¡’êG¦Ä,Ãú%½6{6Þ^ó(ŽŸg`,©lŒ¬¼»õÑÍ6æGQ£ó/IµÅ¸9;S\ØûÀuótAœ<Ñ’ÜÒŸ2B)Ýl!M8UwÕ›Äç !4ñ5$ƒ,6.$7y¼¯Öš¤Ò‘ðÐ{Â	[V×\^ðoI
+L£7U\Šëß]lØƒ .Â8µúÂ&BßºiÞÇ$Š´'[ü‚¾c/pSÌëçm‚¾^‹@Äm6¹§Â.ð@ Á_ÓZrö+ò ¥ä³aüØ.Ä3“šjºµ>vD]çÏfaË«-‡ÂÁ·‚,	÷×÷ÎØÕx×í6–l	ÆìÀ¢5÷»RY2F‡<ÝÏ#ÆPÙ]t¬›ˆWÙx>Ný•a|ý¦i‹	ÞÎu"cGDN1ÁKo©Ê«Sp[¯tÔ7¿6¯†¨.–Ê‡åÔÚ«¼ŸYÈ6u8ÌMx¡iÇËÖ˜¨P~Ë„ŒžÚ[bÒšýÁªfÁ1ÈÓh^N%3•¹vâ ØóÓŠ(²J¨y²çaèÚm‚jÉöb.>e B2¤_^+[;Ì`³LËJtõ1aÅtMgâŸeœX+³ï³ ú/Ù^e¬´0û†k¼‚GëØ“t,˜ä±õL^ÀüP—îÑ#Á=)_¥*¾õÅG„N“õâ/“•Iž°YÄ4è¡z ¤3H^®LÅ|Ù”¼oRòŸ“G]”Ÿ\ærbM9Áf7Ü;Áöåäüÿ…Np <ßJ¯ÍêÃÒÙa.p„á_†JEóÙÅqgû»Õûò<¤íK’êO!Ô)¿ÅI¼ž&ú}e?XqÇŽRÇ(» ,É$ˆ+pð$õe-ØgûÜ¶¨';ô/VîäÜEÍNÝ¾ñ#tLØþPB~‰Ö*©B&°ÛÅ’•H–µc#,˜ Ä~ŒÒ÷GêÿÊõ(°‰»øíêö¡®ïÂÃe‰apô   ~9|•êr„þêûDßãØž”pów.kPò„©š[OAÍA>ž .¡aí×¹ÿ™öÛµð@µ=Gt(‰$£Î°ù |F9Ñÿ'Šû›Ù@¿¸zf5P‹&_ý³®Vº+ õ³Xi!årB­¥ÙÑqøWO@Â6ÙæVˆþaØÓ¦r|²$pAgÀ/ÃK~hÀÎ‘¤Oûyw×úç	bŸç¬À—îâsœ¢ÿ£ñÄ§ÂO™ÕUèì"ýŒê7C—rè`‡‡‰d¶›•<æNæ	®÷1ä²3ÓôHdèM¶sÎm«›Û–¶k*€Ê·3˜_îë,âmî{Â7û¢ñ±¬¸<'ÄGj»Œ„àÁQ5pSOy¯±÷œ#Òa€¼=”ö˜ÛñR®/-K†Zù–Æ;Šp|%¨ÍV‚¯{W£‘ŸinKË‰P¥9ð²ŸävÀ0¯ 7•ˆnú$¹0áÑ´¿yÝš±ÀÎ¾Û$ÿÅ«6ù°oW,[]/‰Yõ˜ø¡¾ø<ýÙÏ¯+	1&*áŒ²2ƒc÷Å‡´ªU;,håx…0”ïö@ýž[¥²üjQjÊáðú2(R©Ê…ª¤¼‚L-·Kâ¶ßK­¨/\.ÞOpHˆÓÛe€8~ÄÖÇÁF1±@o  Fò;tc°)ÉùyÉvŠ÷rŒp¦êhŸ£_×¯ìÑû.¬E°ùJ€vÙ*ÙÙ¹•€F=ÐS¢âÐ;iB/ñœ	Bh¨›¾o²9ÃMÆØ1Ržô'ì¿Óâ6|éSGXûq @MÇønu@õX u¥eU	„ÿ¹o¬´(hž0.Í†Y‡E®¡Éþ3—q.<ö¶á{+øŽnEbè.«$©*ð®Ý|e_ÈÊ¨•Sì¬JŸÒƒ¹Ú-Ød?b¤Yfµr„Œ»|²>ÈB‡sa·G„ÔÓ§DÎ8«“eÎ¯@šDañIûÖƒnŽNaÖ¢9Òö!«[`këà©žd Žz”Ìbã,ºéÐyg®{yE;ÕL¦pð„Õ´#0_ü=£|p½[¥Óûœ¥”{È?%°.«Qw+$_bï_ÝŒÂ†ó*{¶Dç“  ÔéÁù†ö¬œÛ\hR¼2«óì½‘xðáÖäAð æ¨E‡J‰¾iŠP‘e¸²í‡£²$øØÄƒhõ† uô»)/”ƒ¦qWàêUä*Ô1¬0ÚÄl©; øjÖÝ	üì¡Ö®b®HNrˆh¼5ZÉO³	Ú$ô¥ƒÚU^P¦$O½ÓWŒ³Æ¡óèK‡$RêöË¿Þ1ûÑ¦[:’Ìv}‚Z·Y¥¡À·d@MeQDY“Ä”ªT‰ê­?ÿr,•J";;_dä(–pt…ž•™½¢‡âñÝòdFÎÅ	Ð4»ÒÄXhã G($-
+cfi8>t'Âæ:èH-®'êôGÉ…Ø¸›èâ›Y²>˜ &-”?`Æ©Œ¾QŸPvCBˆË.Î•LÚ‰Þæè™j2£Éöb×:ÊMŠè¤‰¯¥,JÎÂ¯®Üõ©%Ù€z€¹	Òô\ó‚XFÍa‹ X¬’æ=™k²cè8éð×ä-JíÁÓ¯bFžm33ÚÐ˜P©ÈF8™Ä$¸Ù?¢ÚM/ž‹$,~CIºÿtå‡W³·Ztà±N¢3Ë–·Åy¼@¿Ò öJÉ&[)h.Ü “Ì¹RP_t™õ…¬è(®} •îóúß±2ÄÎ” ceb k‹ð8%XØ§F#…|’MM_<8yW39¦Š·¡éó|E`6oihí@ pqzÚ}t©ûÆ­ø-8*þ©	§ž©º›°Ì7œòSWþýä|ò„Ì¦| 6cøµ9+›:Àù°¨
+ÓâæÓíq‚„-oåˆ‰!¤ (€ž>O!%´E²W&e~êÞÞmê§aË,ó •G’xUM Uð—È×lÑèHGšC7FåÕç­ŸºEj‹q€ÓùÊ 
+†Ç¤{ðÃëç3²²|Ï•©‘²t=p÷½Xû§ÜÍ È¤ðŽx1p5pk=Ï‡ÐÀß‹Õà.Â“¢k)T°«÷Ï£ïŽÐ15ú;û§¼…0{Ù£ÄFÌ.Jž8ÓêèµŒÞX
+V^ÞÝ¤)HÐ
+JzÞg³X”xZ‰lÝ3Cò£è)L2ã9^é®þTRÑ¡fÜˆÖ|$hË~1@ÉómWÉ£LÞ P † @–Œ@P€€aÓÓdFoÕf0“•È³<À   Ò6›NÍéâ(áÅ{¦
+ÕˆÕM—ˆûMÄ?%tškb ¶ƒ-ÀD"z…‘"2|«8hUÞÔ?ÒœÂZUZöañ	—³1¢Y‚´u„È³ƒ7ºRA SÞu¬Ø#’]µŽ'^ÿø¾Â[ ¥:vŽËl)›Ó]÷ä½¶ñµ©c]‡2«ÔªŽ õZ[±° í’¢#r,cô}ˆ|³¼‹üT¾‘=‡]ü5­µ‰žÆèBl½2fãà™m~doõæmõÎéÝÿPå‡:RÂõÉh3ðÿ¤Îè*¹ »3¤Í û¼\D*¿;µPp”uµ'ž4[{V{@’u^ZßJ2ˆDÜ àÚ³xØ#ÝÖ§°E\Ò•Xì
+f²”ÿµ5Üµ]ØòÕ;h8½i‹¤uf¡œrT‹o€û¶¢Q=`ä')_*4PNG3#ªÆk"ÛGþ£9ÀPïGø‰ÃsàT\*jãí,± ‚®ñó{–_ççIæß4êôºQ(¼úÑ!ž$ðü+œ†¬#o|÷ëX]5±XS–©uÊ{SNþò0^ƒó|\¿ˆ0¢#UÁRû_jy23Ž!¤•lE×·yq^¥ÜÁ@ØG`£Ü{¢ÜÕ¦™ÓõÄÍÇbÒyƒB}K™ÎñaâãR?N¢Ãîn¨åµ0¥Ì‡ÌÖvZÿôha»NÓÍŠˆ÷öµð	ÍÝu|ø{ÕuX©T®×·»­¸½°8Æ£7pÆ¦Š´•ä>K  7ûÙZ¤ÄjÌb)ý©Ÿs	FQútÂg“ØÉ·a²š~±s2¢ö{~×ÔŒïµÓÐ¢õü2\@7Ü=åÊÙ›BŒ7d¤BuAÔ´F9Æid-c“ÉGdíùÿƒ@4-î² ÃÌ_òKý¥!\¤û“9ÇkýšeKõ˜ï¸£DE	Ý}ÞÃó¥«]”]÷5%æ«¾]ß@  È7è³„@nYD«å9¤®m)›+å…-?²_¥¤£  >T¿~R5àR¹?:`¢¾Æ½U[ÿUªä¡-¼Båí0p:b¶:X`öÀ!%ÉI<+1kýÚÙ5>/ÿ€¯ú²QbLgëì
+s	‚Ô‹øhøv8Ÿ †Äí…ËxÆ=n ÒèÔ`‹S:€J]ðA„©¿ü¾PŒÁ%#Å3†‚“Œö>ü5¬#×XãrÌ§^L_ÎµqJÔIûô)ŠÜî1í½‘ý]ÃXŠ{¤öaáÚÇ–];Ã¡°ÀÀ`§©»…fÕñƒaRîeì¯
+Ã‡ÔÏ¨3‰lµÐR€*³üRŒB®“É´=Ûþ®mrœÒmÿ4òÇÏ‡Øï‹lz$°LÐþóH©‚a=ƒ¢¨ú{Rýd1rJÊ7o•š#”µú+±kÄÞRžå:§}:áÎF€tj—•|bâú-wƒ‡Á‘ujE‡Ñ—v«2»Í ûƒ"Œ‰l—î¸ÇzÌÆH->‚Ò¡ÍFM'…ÊªÂaX@›»¬sz>ªAsŠœhAœ,k~5Ï±ºÞ“g+ð`rè1éÞ'l);•ü×ž•œ€Ø³àEŒO	¢Ä¨úÊ†PFDdãbX~¸}êWî
+úq‡—
+^RLœµï¾=¨=ön¥Ì[ÉÓ¹8Åÿ7-15ºpE5=k‘»cê½öÙý'Œ0øÐ±1¥L˜¥oCˆj‘…Á8eútiNÉÇë¨úÖ!;¢‘6ÇÎ‘“å©e$>ö-ÌÛl‡O‰‡¤mÓFt;øž^Œ»~Þ¥4,ìLYI¤4i»ÍÒ	xãšçRúß–yÌpðÕ†È•m¬ÐÃÈ½Ù3˜«1Ö2}˜`ºõ´-9Y7Ðx»†9léDšêFà`/Y¡%*iÈà!‘ÏíŒ))hÛå½ô	dOíêÒ^|0  ÔsÉš`Ý‹€1üš•ÿOI„q" áO¾6œxÂ7ØT­Âªö&[vªr€MSD0ùNtEQºªwïJÞÛÕ>‹‹¬˜\ÍŠ»ÕF¨qå`”"¹¡ü®;—•‰²ŸÔå½¥<cˆ[)Ð:²Ò£.2vÊ².8óÊ;Oe½¦˜²&¿*óÝ ~¡¢Œ ˆ¾Zø Ê‚4ü¬@„`	H†;±Dê…Wbâ²£·cKh¯rÝÜÝÒÿ‚˜ûNkr
+H5%3¢åA1|2”1:±…$„«1·Ã^” 9aÌÔSõ•?s÷¨äa§‰u„<äÔû#¥–’1ø]¹|CÿSÕíÑKØÐÉ„=vì=­sBú}‹ë Y‘¼“ã¹z²m×ë0&±?@¹Ãj^ìù‹üoÔoë‹;¶q¡-A Ü¸{ý¡®tæ¦zé-…½¢2€ccd¸,Þ¡iæQ}r•XîžÞ^‘
+ÀN¿g}ÐÇQ÷^;œâ‘Sv¾—2»HV‹RÙ¸[im:aH)GÜ¯Oò/q‰)l;:KÄª/¾àE,Ð7¬=œ—šžœ–Ã=!5“ÍtKÀ£bÕ?,Ã(sÿËá‰ÑjãDxÖöŒÓÏ™f³î«É€;ÅÄ~£:‚/G "ADAûh	]bËJ>È~ø"ýŠö¥ÌwÆP¶“3À¥OÉQ'ðXÀ$Ìte·M …1¼0}š(Í£q÷ÿn#›?N@E9ÚìLÉÐ4‚ýZ¢6IN=E¥×k±D’ÊLõ~fæ ÿbh¼h±f9«ÿŒ!×ÄÎ_V€ž‘ôÙ¹¦Ñƒ‡5ôIÔ¾
+¤€Ï|T¥¯žÖåDlÕ÷=Œ«B=0Î¦+.‡ñ÷xúLz@eÞzÙö—}K‰!cDQùB®èÎúDI(øi´Ê2Ó:9¾šøÙz»Ó™8-¤#Eˆ".BÄ¼¢˜|¥ý8B“¿¾töc©aäì©ÔÙF™×Œ±Êf<þ{iµiL†þBz$P‘Ë¤à"áfÖ˜Õ±H*ÌŒ~TÄ¼&ƒº÷l..ýÔRn)àÜSë½#¥“,s,:öp°É¢6My*d®›FVKÆv	¢RtŽyõÄØ	¶g 7vªü.ƒ¿bBÎÎG WHþÊ9{Š7ª=H…ë6WÎ«aüà¸Àê”|Í±"¾MïüŽ„ŸôäžÚÇrÐ“CœÃgY¼te"·w¥·d•Ã6öý¦iÝÆÞ9Ç,ŸÐšT60\¥UŸ†Ãjæ5nÕ/áÇPs€acÈÅ›&éJã3—(â
+ù0 |[Ì˜¡HEtrÇ±¼ÂCª‰Íg²W§áE‹ÊI×É6Òðùàjoˆ•NýD„‚±ŸÃô’ÑBõýÌ¼w 4ÈƒŠšyÌWRdƒ„ÜÃ\„sL™Æ<?¿z±njB|!~’Xí~Ûºïë7ñóÁz¢.\¶eòÔ‡c•„FïûäžßzƒGsË˜¼b+Õ‘¸l—î»ß½û}Ç	ÏÎK@æ4š„ÖÞ<ÞhD]pQêe»²m˜œ¦>¥
+Äø@……1®6!  }õÕ|4YºÇ¤¸_Š§Á½ŸaÌd† ÆëH­ª:²Š9á·cü)š\gW·u¤ŒºÀ~=O®v\JÜ¹Ý‚IÃ‘0š¢1ÏË§%Z’Å»Ã™³PùœH zW|R 7˜Íèn³ºxâ›ñþÄÀ5>0aÞˆT·À Äï¯@#}ð„â}š—’<PëM|öTæR‹í-ÉùpdÔôt§°Ý&Í\ô*Rêåå	¨Á¦ëXB<ËªµD=]µ×›éÇÙÂ™í#5ucÔè˜seSfÂ_tzeÙZÛ8ª›e¨:NfÐF`û3Uó7eSÐ>.ED±$Ä»)"¿¯Â‹‚€´éëyÑmËÞø„;~¢ÂÉz9¢¨ŠÑe ²®E! ü´SòxñP$Å²ubôÙõÅh±RÎ'9‹|×JÎ~ÍLd1+ÉK”W¾tUï!Iì4êá9ëè^`n]n'žûÔhFÿÒ¶.:ƒ•?MA¸ª› æ®×cüSp¹‡êðRÄüÉTG¯¤°+ö2ãnpø¨·Þü#?ãk-hóžb"þ§éÄ¼ æãš×7¹‚ S;£ó¯H'´ 3,kµ\áÌš€×\ƒà	R#aÿT[­ô½íÑÌ°=º{w§Nc¹3è1Ø68¯è:6Û‘š"¡/YdÄ³‡‘ù]ã/ €2æX©h½æg¬¹XMõtDk€l­AìÞ¡p×_sWÉ[›qôl6ƒ«Wnù)‘Rî`è3 qîAˆ€£LÓ x † @–ŒLP€€bM"ŠMèÌqÑX8@ÏßËåë?úíÏò?F¦    âvÊw j×˜ßª÷s`Ú:˜H"iIì¡>7r&2U¤,Œ’Ís•XˆÂu™K4!£‡KÖâî¡ã‰Ï½à<„e~Þõú³4ÎoÖäí7w·…:þ—M(EoÊ¶œ_6ù¶„hI(G•Â¬b®îæ	Ç„~B¾b &N{[žÄ•^³eœ<Så(9gz4Hv„>¹2ñ“¸þÞX§i§UL–R*6?“ÆÃš*xÃ€y\ÐaV
+ˆ±[v3ÄVY6î¦“‹Ân”²I—kûüíÖ>{kšÆ:çÿ(HZÅ÷8ÆIà’†Ü±’^LŒ•SûÝ—Ày‡$Ú*mTeÕ>æZÎI=Ìs4ÒÐ>Ï^P”väÑ=MðgÛ@»9æïE#¬™›J%ãNNHÖÅwtWrE‚@0©¾h¥"±Þ”B}›…ZzÝ}É›'/Å}Æœ×æÄÑ˜¯Xg¡î¥šÊñ#+ß8L{ö³l¡%¹.šá‹ÌfKe²êÃ4¢Ÿï]{¨ÜxyÿyÜ0ð)LiÿÉÇ}éîÌ4óˆ5°`gŒPH¯Ýœw™ø—æ‰/¬8Ê§uê¿Þó#“±¬íÑï·¾±ôœ´ëe(¡Ø`ˆ&´8¸!ð€‚¬òq‰´Cp‚ÇÂÅw†:êÙ›½=ê¢ÑvM
+¢Æä	™P+ãÉg(!7@(þmý¶#)h*ˆTSÉéÙ‡â\ÂÕŠs0qÀ2D"ÄëjÁ¹>¬ñÇhð°zÿ}ŸƒuÍè‘tT]Þ®­£ ZÈ.SòÆS"ÄÀ&“¤Ìõ}4C-Ñ¹%Ð¶É„nqù€t/¶ñ’qX¸MJüPµ\æl/›L“ãÏf
+˜çÐ./±ý>g%yÆŠ¶“š£¶‹ÅòšÒýÃi}IdeSJš/—õö?ÿ°„²~ÄôÒp†ØðÄRëŠñòƒR¯G§ë.-j•  ÃKY­3„”=sUúsBr&)ªQ¬ÐñZÉlƒÉ©e`MÜç^Y„h4R288€˜WFë „µ^ç³$ÖØ£T»æXžÅ)Fz¡Wø…tD¼N"¯\ü¯IŒGiPD­£à[“ã ;P3$l¹¶\dcØ_NFæÍžïv]ûð5¿»kPæ:69+h&m›3NÍÃ‘‚ <§‹„Yùô
+Ê¯ñKô_Šº±h²!ôäEÎ´‡’ÛL­€3ƒõ¢å—–?CÅYÙHÙóýKþ—©VMG›ÌLïjèßÎ„Ãa²³0ôcÆmñå©·ao,öu5{¹”}\4ÎãÛ¤·™IÆì2B‡`½ú;p_¹w›ÈpdÖ¾:—ò8ÒË‚}
+ -bmKðA:[mÜ\_‚5j<¶‡æàùäºÍÔâ( 8‘d"z<*/Ú—­pž²0
+jÙ!¥†Y§sY‚¹Ç4'ÆyåJ>lvèyï HOZ8 ?£Ì?±†®ö*ë"l*ë>¯|Ñº†T”RHLRÆØÏòþ¯ÂÙ&~×/j!ò4°qI+k˜µû_nZ§¿®8LW n ¥D¸!º›S´ö`i3lšÌ{£V±'Å ¿•ºP‚q7s>ND ùÌÝÂz‘MRýgþ¬+žÄzAþeÄ‹ÿÛà;RdFH‚Œ¼+}øéa%eÐ²4´¡•×ªa”ÜiÄ 5[aüGÝ©ÖGOä!6Uµñ_ÞùKÔMqAX`#`¼ïÂ^å‰¤Iz Íê\	›ÞÊ¸:S¥ðö3ÆZ­§H¨S9ÿõÎ=¡Êèõ2pÕ¥…•vòNUÍÍËvrpTioÛ¯dìªÕŠÏæÊ Óï³‡ælçØË§ñºœdÂq?“Ñ­I© íBî @  ©s’“çg6Ûs“lêMaæÌô^rÀ?p‚M>óËùû‚ütá|:óf[õ65a-öÎMpŸ×ÉOÐÒþÒÂ«	›Ç’¡±S£jNj|Ó“ÔOáÛ”œÄèk_îe’ÇÖ®`•	žVl+³45¶ í dÞõÞì0 ùFª„
+!Ë~¤ð0}VNè·Í¿ ×è|tÕÑõ9õ[êÆ0Ë]@V@Á¹•¨Æw¤‘×ÇÈkÿ‘Öo4…ØìÇ'«šfïƒ°ñÄn´­®`AbC¦•ìÎÂ
+ðKDxP2‘Q*£û<Ý¾…ÞñnÖ9<†6§Í½u­º±j~ãri g{þ#µëxüK2aW&gG.Û†INÈ¼c¯ÛÈ|û
+vUpÂ+Óa°Är²v5ˆü*þØãý|f¼& 3‰>©´¼ÆÇ•ms=í õ§ÈX­¨ÌI¥íSá}HV•äå0Åv€ÕÁHHR¤‡Ø×eW(/Üÿ\`H„ +XQ£Î„·S˜óTVñXõ"U}gè¥¢Å¸Ù<œÍÒ`0ÎÅvLÀN—•ä¨ ä#	
+øØ©q‘ô6`Ä­ÅFB&¾ºÖš{A}Bˆ“0· )¼ìùßˆ@Ï£Qÿ3rÖ†¼êî™Ø‡Ž§û™Å-DYÂ?-7&a /˜´tÃ#ÌýwE—ñ/ë0@j	è0ÛßÁ±Àð¬»ÂÚ¦gæð³ù½(äoÅˆÏòG¦áeeCð#ô¥‡Æ[ìg1ÉoUâƒF…7¢{ ¡£‹'·NÖ{C{ðµÀ¡ÞÕ%ñ·˜ëæ(jENïsO»ã¤é
+AÂãw'i‘Cû$R¯<xÆ:Ùx¾-«çÇ“·Þ¸â
+öúáë+räU<‹ó[Ì"–JŸ{ÁŒõ4=·à'¥÷-h¹=Uëâ"í´·NeÎ¦§i§óÕ‡ÅÅI)Šž
+OÆ*oTUÜñj¼}L¢Y0åYê}³sqšÑÞßÄrK^¾·þš…kÖâ
+ÐH;7û£mªí£°vQþE-ÚiÑD¬>?	ð1,Y[•³cõéëRqOä>eMÞëý,ñZEZ¥äJ¢Ó¼Áö;B¾LØwq¼ Wc×bbVÀtZÅ,ß‹~ÁW 4oT°²{aWá$`Àš…Æ	l/G‰µg¤}Pi*.W¯’dÄ³fî‡áÄòcypŽ”­ûç=Èà u[o®|Ó†·Lf•"~q@Ðß/2ã!>¬¶‚úUÜ¹¨Ø«6æ@‚:¸¾±ifD<è®¦t9€=aMQ‘4 –ØBZÊ«X¾Õš6Õ>ª`Q¦ž2 ÷Ý«¹DZ:*7ŸgŽ›ÿ6ÛÌ´²óÛÅàµ§?$óƒÅ‡½7y³Ùdj‡p´L±$ÿž­ÉÆ%õ‡°‚FPúÜ-½ùÚˆjµ Š ýÅ§Õm “u-®±ý˜hQ@YŽr¿­›60’š ‰±
+À
+ØÒGM&X±W«a|ë¹È?âg©OgŽ‚àaÅNŸèm I6”ŸÿÐÞ6f=Àñ³M
+Ø¢SX†!'ñ*°á)#¶‰ò¨õã˜Öeö¸ÊqY`ôtâë˜{}|Þ_¹Ëôè³°Fª,W³|!¿àTÀ)nU:x¢Æìââ³ðão™±NEƒDª+¢±RQak»l½MdÍ¸¥qøEÉñ—öí˜Rjóêäƒò¹…õƒñBà™…£µ\ ®Í>µ¶x€ÅP´Ååép “+ºšÃ‰XëqÒŠoÃìÖîegÔ¦.éh‘‡,Rêò)ˆÑ+ÈsTºFÞ‹)Õ[d),ŠÉ¹£K7õ0‘]éÀM
+#}×HñÁ™Ž[¶!ÇKõ|»X,.ôªÄçXDæâ;ÃÓ¯Rp|l›dtá¤½g5÷nI VQb`Q`ÆŠ_J å¤×sÿ‚¯Ìmï¿ñëÂÎ¯-Òc_ªB¼ø§­ùy²ÇQ—$‹‰ûwé ‚N_ÇMÀþÛÝ#Yœo{-¥	Ý^“áqBÉA©”S+í¡^õ¬óO•ÐïV2éiöó6™wçOÜvªº°	jÏ|Dô»øüz }ôçð÷¬HkÇ{ê”[¶b­x*061f‚æ*ysyJÂ‹úÀc’Õ@Ši'O¾:¦»\¤TV€8V¹|g” ÎŽÿ˜Îl€:N·=0ËLéÇ”ÄßäÆ‚¥sÿøÎJãUú;‘ûîb¡FáL0Ôõ6cûjA‰)X|lt±³Ñ%<¿„«k±Vì”°6ÀŒ¥½­õp!ÍÚA4[  £Mu   † @–ŒXP€€a%!©ÞÚ   AÄÜÃµýwY¤Rb w ¦ñ´‚¶˜)¬ÿ‚§ÅÙ¸0A¿<Ä™{lÃ^ÀˆÇ6?îi÷©cu#Ý²Yg3N:Þæ¶-„éœ-ƒc”;mÝÇ¶~Ÿ’=m¸©ÄQ|ÿ[ˆ @¹µ;fÉÞµŒR°žzÚ¨ý¨iãœ’O Šb«;*ïºÄÜq.øÑ5'«µÖ~nKeˆ5€ÿN|oh4v®*Þ*³#DG[vz]ôßÄŸ|}1¿¾ßˆß§è'ó7?j–_æÂVôJ–5‘ÑRsÿz'G×qø–¡årªj0l1E5{#ZEÍ¤eO ª¨ƒš¬âñŸþ);§˜JôÕ·äÐ\Y!¹²n£Ø©[sóÑ"¸vi».ƒÊ£7îâ€Žf°@å}KÓ·E›zgœ*'’¯Ê6K
+T¾¹ì˜%öÚ‚Àwd1¬I^µö×¦b<*<€1¯ñöVñÚçÂåØC½?âã¦ì¿¸Õ.ÌH€éÉ}Ý×ù;5L`öð(n#x›_ˆ1L`hº4"õþ]LŽ	„÷Ùù& ^ÂÍbù¡Ïaê%¡È•öÞôCÖë=}¥•"Å—fŸöÎ23<€Ö[ÁæIŒˆiÆKpþ<æ]ØSÈ½YÄø…†pó’Æ(pCÖÕd[]eBkÂžw!¯)tROë&ßeÅàm™\/ï•ó2€W´óR„h‡„Òû"õ™Üj€_	¼»µvl¾þð¶ÁN’ûæ%µìÉÝ5®"¯¬=sk|vÉú'˜AÜÞ[Î:õ)|³äv¤¢	ítÀöõS«ËahG*Ö5}ž¡˜®³¶¥¼‘;²WèªI5\C
+²Ôü÷³è!¡	(,ö"~dá¥óÅ“³põ*ßë]øOÉ`¿Úºtž-¹:Ä;I¨³Äb„¿øäÔP»aÔ˜ÖÍZ®Ñ·æ„s÷±ëA¯PJ;­K?el¦¢8ô¶Ñ~áê³+•_oV‚Ü»Ëf±D`»ñì¥'Þ›9 ë1'—ê   4!aámÉN9Y3I˜4‡^OßÛÜþ1¶æ¬Ôwƒhaä–Ð£k“¢ÁÂã˜ÇfÜ™!yM‰€‰åÄpewï=Ž,Såh
+«K6Ò²¥‰–óûÙÇ”!ªò4€Ë©«ÖÜõ+G#ó›¦NØlMEòë âÝNµOªœŒ´IuÕŠ—8çIƒ°8CR"á0îHÉõÓA´·Ž·ZªÀëƒ#O+!0@e#žTU;BÁÜ
+0WÕ¡mMi{iþüªtÅ¯CSì É"ØÂÚh@J+oR˜àöüE1åôJ¯¸”•;ZC,½R‹à}uQµÉx3¥øÚærí ¬¦\LúxðÆÄÛhù
+³bW·÷MH|ðII†qÎÁþüHÊÄ!Ï|ÕKÞ-¬·íÊ[·ögÉ÷Œi	Õ›»~Û³‡Y²õEþ-Š6;§µRFX`YÝzhsfž~ësÑoÕª°±P¤Ôdž¾[À}XC¹OoÓ¢j«•
+ÎìªóM æNó{m¸ÌŠc_.R[ý42§
+öCÊJK…›Þè5Ägjƒ‹S
+ØK++¨ô}‡*©ä|ûEÌá±y×!uÙ²ƒÓ|‘¨¸U…TôÎÆ’}Í“*XQbr~† ùZ_RiÊK¥=ÿ…™Ê¬«™±sèxfÉàu+˜.Éaþ0y@ÈË·ìœ§Ù®o’¥ürn+€ûDî_ÙŽïÍé9­{;øsáŒC7v ¥_:°â)È, ª„™šþ-”Y MXø:`b{Äq&ÆHUW¡ªojKÙ<ŽH¸4EÏz¸åÁkt[ä‘ýúpÉÈýÕpxaŒ:	r”ÝÍ<ècÅj× Œ0är§"HD"PÍs{z`Ú\‘ß-åº|²`ÍZå%hÒ+ñÄ^„ýg°“},‰kÝÓwOÑº¦°'!n&LîVéOßRëg^W®rcËoáídèïÐÉ3nàA=óGÝA¶bt'‡mÎÅˆÈ"QXà:]Y7Qå³„YçD¶×Ï&rªLádA[…‹M:KÁk!­[Þ¥8ÂÓ¶5hs´™µîuóÕ@  ½k¸Å^8ðÙ¿õ³ÑÅ\W]!½ìÎæÉÜá*•¤£!«õš£(4y{Ö"rÎGÍŽ“
+b+±SÇF©pB0°®gñÛYô|	¹Ÿi<ò$Ç€Ú2Ñ>2QI"!]·ôD¸ÝÖlÑãÐ¢îðöˆÉ`âQ:Ý:%Ãö±¾ˆ‚À³ ž‹Î%C†§ŽÝcñÄà8ùÛ(E¹j§ž 5EGý…M|ßÇ ¿{&‚àìÿ˜5«Þ;…æ…ùÊ³6â£V@{=5zðÆ&©å H9 ÛGh…ò8™k
+/’v½ëzTŒ4¥=³[é6|ssÈËi‚»éÅgxåYE!"N±¹aF§#­·ëIñÁwŸªÜq|©‚]Ú	'f¡ÁáƒBSÎâƒ?F™EZÒbÎ B¾æQ»Éì¡–S¸3uâ™C5MRõÉ¤0í¤Ÿ 'VÏß‚-¥÷tŒõë¼5g—ÙÜƒ1JæÝ–#±U•yËil­:s‹g­tRÒã rXÆiHÞ‚è|&ÔzÝÕ„ýÑ}ê•ôØÇœ°ídVä÷ü‘‘ž
+d¬TÀ¨Ë¸‚ûë¨ŒŒX¥'‘?e™tÕ/Äå#|(ßÏ0O"‰ ýj=˜ï”†ìáYã\Øèn“%È’ l,H-– 2¸òO(ª;Î§É	u?>Æëµ`ñÛkm/çºÐžÆ¸RFr¹jMûf×¶Ü¤9Ô°¬€Ox`¢È«Añ£çÅuñs-<¸pó-çµÜª3u¤¸¢·§ßb‡gÉ×½ÿÃ“¥™‡ð+¯™yV®Å……MhÆã’õ²}ãìè4QHX½¡t¸69óùxòÃP5ž;‰ú}7|ê@-†=°Õ$¨lÁÑX«•¯Í„oAŠ:ÖïÞýÉˆ×¤kNÒZœ21äˆÄü9B+»³¾èÂËRÁ5ÛÎŽÌÕU¯gk4,“Nãx½dJÌS$_ûtÀžwÚ×ùúAÞî·[$;Â=rº¾"ö9
+i/b;Uè·©ªqNuïÝÙ©ó±ºd”h­ÿmù…°jÔu®6#^‹Vò´NÑœÞ¶ŒþaôÄVæ+0A¿DÎ­ÂsßhM ­`©yà†P/]’ØÊÔ9/šò¼N]V¬Y×_åvsc•@> ­¦•èm•1üëõVmOË[£¤KØ~ÁXl.Ú«=¬,E£ šyê/<ÑÏ¥™— 4æ|‘ jºmÍ`ù¯‚+Åòî=vLÎ¾*›wbÆÖ€¡êEËrCóÒ_­•!œÔÃ,}AkÛÌõ–\Žò´­«ÑSöWšŸ/FÎ„FK‡<€a±WòØòœÙ§±?AZì6U”uÕésIÑfg;B-àöøJ mÐä#f<1¿ÎŸÞkNÔWðÌqÚø/|ÞY¸Œ¹
+SÄäó Gz˜nsÇ¬tÅDÿ¿n˜ÌMl(hx0êŸªUni<N•Û–ÒPt‘ªK_z_¹z„4·2ë<Ãz 0w·V4›²€Ôe~@ÀGøâ†Bf¬þ“dŠý(I67œ˜ŽŒÓº­@¥a‘.-õRù2ª÷³q
+V±/¾ÚùÏÀŒ1Þ­úÆ× AèwÐŸc6ê°6IiæjštüçQÛÎb§=DŽJu¡=ÄHhÝ"Qu¼úsÜ©:NMÆÌ¼:e{¬/Ç3oD4íÎÌýáé³^£Ù¬`Áôó¶(K°Rk|:D‘½Da‚8Øq@¢‰N¬Âò%%|wÙü-ëågÀ(7Ð ¥°.(–´í–E¢Ø„öJnDÿ¦{$ârékv·	¸…&†ùfH<Mìló†Šžâ\×{„?Y‡Oò´¥RD˜6KÎDÝ‚$Ý.N;¹çÏ$u'E³†±ÍKÚ7BU&©
+Ý*Ìqpæ¸6q„€@E'Î)øÐÐîÑs®Lsë1I&Ç˜3ý§“nÎØ,›*èq#Z9¼2bM;¼Áv¤!*gfïuÞ>ª¯œHpLÔU&ev*–‘EƒIl‰Nƒä™Ú³÷•×\
+ù\n4ÜâH‚'´´¡Ö±¶áÿ³ÇŒ¹…bt¡mÐz‚,ö]”¹$¥Òmn!ÙÍ-¼åZöC9i“Efsyâ8p†ž·±Æ÷²%Ò/&N‡VÐò|ßB­¹Î¿~º¹¤ûª!'tŠ,ß£í%Cn™Á!ÑŸ}ƒ]ü& ¦¾k
+2™d¢,¹	™é£C;oVÂ¨EãÙäL±]äé®›€:eläÂ¦–]ôÜ›RaZ´ñy„›”Ïr9]¥‰Èìde`ÇÒxKLhTSƒK6vú,Ç(‡à£Mf È † @–ñÁB 
+d¤©@7ôH   ¨/‚³¥Âén¬"S!oú#æ…6'ƒïÛY†õ ?	;xÎÑ‰óI!{Ö1¯þ‰?yœ«*RÙã––aìä±{>@iëBàHxÕ³ÔÂùvìR¦bs~fó3	÷+¹ëïgj³²Ê˜çâ±£óR*VšdÔñï³àÕ²Ð_xÜï¨¬»ÝD?îêàˆ>öZÒµÌ<tâÉ\ÒÅÕøQ
+¼‰<ïçJÆ(ý[R¤zÉ{ßPÎ
+÷åFÚ…¯÷áH²+¬—h¿§õÖCP¢1’â1~cPcÆe6´ðaBo›F‚ˆ|“f¿””–šcˆ[®\Ó„BL–`†\IN·ÇQG‡Ûò–Á‹™Öë™çÃXaù‡ü„§M@¡ÎÇ;fSý+f’¦ù~;÷ÛF«!@xˆ6rój(0’!ÑV¼+o5ˆÆ-”8¯¡ý&A`3[µæD@Dù2fqâÜ„ôç*ôÍ±Û¤XRêeM±LkKì_D
+~ŒB‹|nŽ±È¶~nj½7Õ§•ÔRìÓXŒ áé{ÕL4­C0´ÊF€»h³4}¼w¾î$¨il¤ŠÕÒ øÐòàá*ÉE^H:ìúKŒ?C€î¹2}çoÐ‡£5J¸
+ÎD›«ŽÄm\(ëy*µe'!-¤{Á¥INºß³!ˆV¿%ªuÂ]í³D ¢áõ
+™wI$l9Ä‹œ¶Oµ2ÿå6­OšQÚúaŠc÷½Ò:»H[[Vµ{^Ús}›9åô[egDø—ÑðýÆtÍžÿgP‹µ)`ìóOœ7 Ž'úùÞ(û_¼¥'Pä¶úîUb„& ~ê ~mZ@H]$¥ñæ˜e1ÿà€¦¿¨øàÂ×FR&hP  Z;"ûS¢àª_6’{ý“]ßd‰Ä\þ‡nXÅZ™Æ>¥3ï±æäM~Â@âªr€bþ×ÀdæÍÊYäMÐC€Ÿn|/%².KÕ¹Ý:ž8Ë¼ßÛßöäèõkWi®<-¼S=tÂ¯1Ç(…í{TìDNG×Dc-náî‚7?qÏX˜ûVï^ÝÚ"ówZíyaYüÇ`Œ^­
+)†fÛ(¶|>è†WCK‰aCéCž”ŠmÑc[‘!ä 8•C˜ä2*M*¾(ª×ö=%²U92¥%"²šN~®R’r—Ûjjunú ;\
+¢G‚=/×§Œb{š€KÝA¬¦&²)>+Iè¨[˜BÑJ˜¯ê”Å÷ ÀV@NyïÌmöx#Ò(Þì%¸M•9J&ÅzŸw®gEˆ ÙŒeÁ”3G)‡3S`Mt,îÉ.“œ â˜W™Kø…ÀÍƒ—X:Œ`ãœžmDîºZ‘€ü#ˆmÑo¨ƒºBZß=–„Uî¼Í]½Ô Åº’è}ÔUiµÇ	»ÔT$¿¾™zåÒaÜ§ì=07È4È®	…;¦ŸãšIö0¯H¥M#L ÉRùh2sÒ:Wžª¿nø²ÉüK4:m”Ô,Å¨à|BÜÖƒ'®)wÄèœqâC_íÁë	úþV\)Ïö¯I`Íâ*zyö’tøx­ÑURDy³Iâ]Þie˜°„HàÀ&+"_:F¸‡œ†	hVÒrHz7¥|5U¶zÐ”‘”rIàËA{á±H[ñ —óµ•;ÚïÌ†DðOüß&bÓ71‚}c8#/zpO™?: Ê:ÞHòKü\,cËÇ|LäGÒÇ˜à¿7ÌôQ¥Œ\Zè¨ø†˜éâX;?pÿ#/’mTƒ€LA¡íå^7%-Ag:ÇC*<ÆË`zÄœîcÆ'Ð;ñqCÝC·ç–«ã4ÿ[2Ãƒ¿%­µ¢”2ÃÊV|#¹qq0ý5{SzµfÄ}
+`--’»Ä¬°j<ûÂÌÍ¯ˆtz•sÀ— -êbŠæx-§,ZËZ{•è’é|9rþ•Z°Ù×C“rº· kdp‚p8ŠÀ   Ÿ2«Úk";ðÔ.Ïé$³ÿŒRÑø~QMŒk  hý¹®
+äªcd–±!›+«„A×P7÷W¸1(Èm’ŒJß‰·²19Ü»‚ê	ñqwã®taä/š¦Ø]g˜ÄÆ4µ}è®›[«±Áí”ø“bÄŽÏ}½ƒ‰À7ƒ°~³ÎçùH6`íYW=óàØZA¯dI˜ààŸÓw©B¬9\¹èFüÅ‚Ž2³ƒŠg‰¹-‰*Å‡·“XjkKÎõë(X‡¥¿XG9íy†%®¾0Y íìgüôø¨Üò@ÙÀ_Î(•Û_ö”‡:1¦Ê>¶ Axbf¢¢:¶Ô;÷÷Ù@Ï]-åE…M¥ëâÒjÕ!Ìû:%+üÝßAæhõ™£èØ¬ðL~þ£c>6Žz&‘Š,¼‹<w4g‰mŽÕÿÆ˜4z8=x(3ýbýÃñcPñYÍÆiÈ¼šVó‡HûJ	´:žßÐÔí†1¯xü–îw¨/ýõ\0ÒÂ‚v@?uw„x]A½ðB…J?”“üÐá,¦Ÿ$Æ71sr[³
+›yDkÛÉ²h;(‹1‘nWosÇ~HBul­`c(¾’¶2×¸¨&@hëÔc¼-Ô–¤Y+.Xi|“¶/GÉÕjX|K™ÀÑT`'ºÀÿ|uø»B\uYuÿè a18Y=økåÁa2Éã#A4_±3&¥kÝMÖ ìßîËÍÿ„ p¿ÛnWïàãæû‚'ÂR˜ž¼Ë0Åg3yÛÃP×ÞWƒ	âj¥¯ÝÍ\£öES"<ð%1ªaMnÓ—Ù§!³5^
+R›ÞqvsHZÈ´ýrâöû¼ð¶p
+¥éË×p±c-#ž|ŒŒ žÒ„J®ªÍãSÙæÎÊSÕÀ	Jí‹pÝEúÑU×9³•Å½cÇ2öïxL#Bƒêm¥º=•b7z]pªi=j•+À·FÆºÞÉÓ=©bT
+
+”Qå‰¤$Ôx%^‡èœåÉºr]‹2WskÝoÕƒE‚¢±v±%“r@3ÿ«´2Á´oîú½Ç÷—péÍSîä³>0%AKI„‘«ö0£'EMQC°%>¾¥fbdqnÜ“ä'm¿÷âJ­Se·‘<qß‹t”ÞÒNøX1ÅÊá²ü‘ö3#J³}ÛÚ=8‘‡éµðçê5Ë( +>)¬bEEhBJÈbž¢Psº’™‹®Ãc‡·"ïÓ=ãà˜$K[V¾ýÌfd›C9ÍIb½¯«²N™$Â@Ä¸– ºÊCJF:mÕa;ÙÍÛm@ºù<wô÷ŸOs‰ý‰a¼Ìv­B§•Ö¾Ð/ƒíkJó°·o†úìþ÷å¶é½UHÚòc™—*V>oö‡…Á?fÄ6‚êp‚!híñðšŽÄh‰Ç‘ p2Þ+Ö&PëüÔ³ÂŒ™­¼TÂOV¯%ë6þQ‘«ÊRÁWY£ð’’—cNN¿hÓ6”Ÿ¤Ì“‹–îÂôûê€;X@¹Ÿ‚¦ú¸•Xp´UŒ4[Eÿ‡Š©œ‹M_Ý–oÞ×Ÿ¯®w;;çø¹3BÌN¦Bpƒ%ã^FíXS.æêÏÚ=ù]…nÁ1æÔðšm­j!³V —E…t…„¹zÜ–Yõ¹‹¡*ùìÉØ5T5ØqÄ»QÆž«8AGËº3:½ú> ÂSø0ù€R3ðö)›™i;E{9´Bkµ…ã­µm¦é×_†JÊtÄ¹Ö v	CŸw2þ_î¸«”…¡.–ä=›,òåK»`K•g>2'‡ äœŒâZ×ÃU¼û
+r¨9Œþpïë¥/ýÁç£•ÌŒ²f¡ðÉy¡W›¼‹:'0"ßñ«nzjÁ;¡ä‚™R!QÏ7«ÕîdQ	hQÀÜ\/È¤|…nUÀŠáYp;Î×ì\ÊûbmPw6{X ÈÒ|ˆï=Ù<`õ·Üir¶_vï·p™×l¡`-°í;tªN{Lãýóx•€V±`4ê—ËXzë„ªÆ	ÑZlE€hcŠ²}ýÌßU!tybø3q¹"²¡1H`õÌƒ«Ï(JW?ép…´Bý˜¦RÆAÝÿ¤)#!:÷£»¼à^¡I‚Ã¯iKl{VqHÁôëÐÍ5àÅþ/9aZ˜EØ’iVá]™g©UE
+„³¢GÓ¾©d\õNåÓzcGß©|Vo;|ÐÉöMèT@-1¢·îãy«žs_Š?Ä…'w-5 _Þ©‘ÇïÊËA¥.…À[À1ã·—ëøµzRØ£@ØBÁ¾ TQE½š!Ê¤.ýKTìÌÓÍ©UYÑ…)vªSJG2ÂZ’Ï·Pæ¸aƒú$b^jbˆeJZž—kšC £L? ð † @–Œ@P€@a'b´†x(!©*B    Ýír“6æÑ¾IÒT+Ž‚4‡KƒáÑÒñ¥ŸKJjV4f”µÉ,“ß‚LcUÿ;^“Ý‰QÎÂ ¯´<_O¾1 PÕÐPë0Xð9JwÔqî!%ßüRl§_€žkEI<5ZàjàµØ"NîxÿÿðÌ«6±VÇÎƒA„gàñÞÎë:«žÏææ~ èK îÏC,ôU±Óy,ýmÉ“SË&­1ÖÙd&MßüdG*¸@ß¹™Õj0¤MåÑ’bŽã<¤”Ja’®€óÎDe¨%×0÷Žþ«·ì C..âãQ5Ÿï^»¸Ïn×Ú]kMÙsþLêÂ¦Ÿu¡Q–z&å¿þ‚ÂÀ/9ÕÏì}ö¶æž®*½-¶¸Öio®¯‘¡;ê5°Õál”qI¶4¥l^‹­½·ÚÎç6`c(›…ïD§y\Fy¦J°—’ãÀO °Þ>e<ì¶G“P|7F¼ÿK>j/ÿ^6Ýé¨ÏOé’—‰`_wé†ÇT®i¬°yÙßF¬øBUéUàÐg¶síÅ+_sÑ!~§cp××pžCveŠMÐ­ÝH4òb)3`2ÖIý¼gÎÏæ®·ïy[Éy‚W=OSÛ5¹ZÊ‚&(í*úò¥Ç	Ã}{ý#Vp:_qv¿y:Û»+¢dY¼w…ü™Ì¸@›qºN}õ{Î=Z\l
+Feã´gŸq‹áèb(ñ¸5Øl”># ½på?‹ÄÇy”!¢ò¦U`)É¥dYéÑÏsE’°VÔïq9Ð:~ÕŠ"ç¸Õi~H†­;ßn|Û÷9ûÅK¯•ÆûSþ !?7áqÙ Ô‚`…<tèp­Þ‚Ã`h_JhÔ˜ä!¸ôãž)¯ùƒ¬£7S×8×TÐ®ÙÝr!8"{ööZMíÍ§DcÆ}wf«¨Éc¾CË6ëì¢Áë%j
